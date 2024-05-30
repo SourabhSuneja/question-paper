@@ -21,7 +21,7 @@ const questionPaperMap = {
         "Very Short Answer Type": 10,
         "Short Answer Type": 10,
         "Long Answer Type": 10,
-        "True/False": 10,
+        "True/False": 2,
         "Fill up": 10,
         "Match items": 9999,
         "Diagram/Picture/Map Based": 1,
@@ -32,6 +32,7 @@ const questionPaperMap = {
     "gk-2": {
         "MCQ": 10,
         "Short Answer Type": 10,
+        "True/False": 10,
         "Very Short Answer Type": 10,
         "Long Answer Type": 10,
         "audio": false,
