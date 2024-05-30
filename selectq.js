@@ -67,7 +67,7 @@ const qContainers = {
                       "Very Short Answer Type": 3
                  },
                  {
-                       "Match items": 5 ,
+                       "Match items": 10 ,
                  },
                  {
                        "Diagram/Picture/Map Based": 1
