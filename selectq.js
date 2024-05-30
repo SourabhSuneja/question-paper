@@ -23,7 +23,7 @@ const questionPaperMap = {
         "Long Answer Type": 10,
         "True/False": 2,
         "Fill up": 10,
-        "Match items": 9999,
+        "Match items": 0,
         "Diagram/Picture/Map Based": 1,
         "audio": false,
         "image": false,
