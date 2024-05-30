@@ -35,6 +35,7 @@ const questionPaperMap = {
         "True/False": 10,
         "Very Short Answer Type": 10,
         "Long Answer Type": 10,
+        "Match items": 99999,
         "audio": false,
         "image": false,
         "video": false
