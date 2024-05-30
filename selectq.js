@@ -30,9 +30,10 @@ const questionPaperMap = {
         "video": false
     },
     "gk-2": {
-        "MCQ": 2,
-        "Short Answer Type": 0,
-        "Long Answer Type": 0,
+        "MCQ": 10,
+        "Short Answer Type": 10,
+        "Very Short Answer Type": 10,
+        "Long Answer Type": 10,
         "audio": false,
         "image": false,
         "video": false
