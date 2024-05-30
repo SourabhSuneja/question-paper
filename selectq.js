@@ -17,7 +17,7 @@ const mergeableQTypes = ['Match items'];
 // question paper map
 const questionPaperMap = {
     "gk": {
-        "MCQ": 5,
+        "MCQ": 2,
         "Very Short Answer Type": 10,
         "Short Answer Type": 10,
         "Long Answer Type": 10,
