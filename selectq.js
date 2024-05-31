@@ -436,7 +436,6 @@ async function start() {
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
 
-
   // generate index map on the basis of card values
   let { map: cardIndexMap, uniqueValues: uniqueCardIndices } = generateIndexMap(questions, "card");
 
