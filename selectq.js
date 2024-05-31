@@ -29,10 +29,15 @@ const questionPaperMap = {
         "image": false,
         "video": false
     },
-    "ch-2": {
-        "MCQ": 0,
-        "Short Answer Type": 0,
-        "Long Answer Type": 0,
+    "gk-2": {
+        "MCQ": 5,
+        "Very Short Answer Type": 10,
+        "Short Answer Type": 10,
+        "Long Answer Type": 10,
+        "True/False": 10,
+        "Fill up": 10,
+        "Match items": 9999,
+        "Diagram/Picture/Map Based": 1,
         "audio": false,
         "image": false,
         "video": false
@@ -426,7 +431,7 @@ function countToBeInserted(qContainers) {
 async function start() {
 
   // fetch all questions from all files
-  questions = await fetchMultipleFilesData("gk");
+  questions = await fetchMultipleFilesData("gk+gk-2");
 
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
