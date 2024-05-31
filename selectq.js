@@ -69,7 +69,7 @@ const qContainers = {
                       "Very Short Answer Type": 3
                  },
                  {
-                       "Match items": 8 ,
+                       "Match items": 5 ,
                  },
                  {
                        "Diagram/Picture/Map Based": 1
