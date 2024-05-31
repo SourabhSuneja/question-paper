@@ -69,7 +69,7 @@ const qContainers = {
                       "Very Short Answer Type": 3
                  },
                  {
-                       "Match items": 5 ,
+                       "Match items": 8 ,
                  },
                  {
                        "Diagram/Picture/Map Based": 1
@@ -431,7 +431,7 @@ function countToBeInserted(qContainers) {
 async function start() {
 
   // fetch all questions from all files
-  questions = await fetchMultipleFilesData("gk+gk-2");
+  questions = await fetchMultipleFilesData("gk");
 
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
@@ -602,7 +602,7 @@ function convertMCQToOther(questions, selectedQMap, convertTo) {
     default: return
   }
 
-  if (!qContainers['settings']['convertQForm']['MCQ'][lookupKey] || disallowedQTypes.includes(convertTo)) {
+  if (!qContainers['settings']['convertQForm']['MCQ'][lookupKey] || disallowedQTypes.includes(convertTo) || !toBeInserted[convertTo]) {
     return;
   }
 
@@ -715,7 +715,7 @@ function isMCQConvertible(q, lookupKey) {
 // function to randomly transform True/False questions (changing positive statements to negative and vice versa)
 function transformTF(questions, map) {
   // if flipping not requested or less than 3 indices in the map, return back
-  if (!qContainers['settings']['convertQForm']['flipTF'] || map.length < 3) {
+  if (!qContainers['settings']['convertQForm']['flipTF'] || map.length < 3 || !toBeInserted['True/False']) {
     return;
   }
 
@@ -800,6 +800,11 @@ function mergeMatchItems(questions, matchItemsMap) {
     // if no selected match based questions, return back
     if(matchItemsMap.length === 0 || !toBeInserted['Match items'] || disallowedQTypes.includes['Match items']) {
           return [-1];
+    }
+
+    // if randomiseSelection is allowed, shuffle the array before sorting
+    if(qContainers['settings']['randomiseSelection']) {
+      matchItemsMap = shuffleArray(matchItemsMap);
     }
 
     // sort map first, to achieve least question deficit in case merging isn't allowed   
