@@ -54,10 +54,7 @@ Match the following items correctly:JSONParams:{"qType":"Match items","weightage
 Match the countries with their capital cities:JSONParams:{"qType":"Match items","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10,"matchCols":{"Countries":["USA","Britain"],"Cities":["New York","London"]},"colHeadings":["Countries","Cities"]}
 Match the following cities with their respective states:JSONParams:{"qType":"Match items","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10,"matchCols":{"City":["Mumbai","Jalandhar","Ajmer"],"State":["Maharashtra","Punjab","Rajasthan"]},"colHeadings":["City","State"]}
 Match the islands with the respective oceans:JSONParams:{"qType":"Match items","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10,"matchCols":{"Island":["Hawaii","Canary Islands"],"Ocean":["Pacific Ocean","Atlantic Ocean"]},"colHeadings":["Island","Ocean"]}
-
-
-
-
+Match the personalities with their respective fields:JSONParams:{"qType":"Match items","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10,"matchCols":{"Personality":["Sachin Tendulkar","Prabhu Deva","A.R. Rehman","Narendra Modi","Amitabh Bachchan"],"Field":["Sports","Dance","Music","Politics","Films"]},"colHeadings":["Personality","Field"]}
 The world's largest museum is located in _______ city. (Options: Option A} London Option B} New York Option C} Paris Option D} None of these  Correct: Paris)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
 The old English word "haply" means ________ (Options: Option A} Joyfully Option B} Excitedly Option C} Perhaps Option D} Tiringly  Correct: Perhaps)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
 Who invented telegram? (Options: Option A} Samuel Morse Option B} Alfred Vail Option C} Alexander Graham Bell Option D} Both (a) & (b)  Correct: Both (a) & (b))JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
