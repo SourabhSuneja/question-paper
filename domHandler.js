@@ -147,6 +147,14 @@ function fillQuestions(selectedQMap, questions, qContainers) {
     // get required number of questions of specified types for this question container along with their respective weightage arrays
     const {questions: fetchedQ, weightages: weightageArr, qTypesFetched: qTypesArr} = getQuestionsForContainer(qContainers['qTypes'][i], questions, selectedQMap, qContainers['weightPerQ'][i]);
 
+    // if this container contains mergeable qType and doesn't have a mix of questions, and a heading for the container hasn't been supplied explicitly, store a reference to the td containing container heading, so that it can be manipulated directly by the function producing the DOM contents for this qType
+    let containerHeadingTd;
+    if(!areQuesMixed && mergeableQTypes.includes(qTypeInCaseOfOneQ) && fetchedQ.length === 1 && !containerHeading) {
+        containerHeadingTd = td2;
+    } else {
+        containerHeadingTd = null;
+    }
+
 
     // creating Fill up Help Box
     // if the container contains only Fill up type questions and a help box is requested in settings, create a help box and prepend it to the container
@@ -205,7 +213,7 @@ function fillQuestions(selectedQMap, questions, qContainers) {
           td1.textContent = innerQuestionCounter + ".";
       }
       let td2 = document.createElement("td");
-      td2.appendChild(getQuestionNode(fetchedQ[j], areQuesMixed, qContainers['settings'], questions, qContainers['qTypes'][i], selectedQMap));
+      td2.appendChild(getQuestionNode(fetchedQ[j], areQuesMixed, qContainers['settings'], questions, qContainers['qTypes'][i], selectedQMap, containerHeadingTd));
       let td3 = document.createElement("td");
       td3.innerHTML = "(" + decimalToFraction(weightageArr[j]) + ")";
 
@@ -366,7 +374,7 @@ function extractAndRemove(array, n) {
 }
 
 // function to fetch an HTML question node based on qType
-function getQuestionNode(question, areQuesMixed, settings, questions, qTypesReq, selectedQMap) {
+function getQuestionNode(question, areQuesMixed, settings, questions, qTypesReq, selectedQMap, containerHeadingTd) {
 
     // create a parent container
     const parent = document.createElement('div');
@@ -430,7 +438,7 @@ function getQuestionNode(question, areQuesMixed, settings, questions, qTypesReq,
     }
 
     else if (qType == 'Match items') {
-         parent.appendChild(DOMHandleMatchItems(questionParams, showAns, ansExplanation, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, questions, qTypesReq['Match items'], settings, selectedQMap['Match items'], areQuesMixed));
+         parent.appendChild(DOMHandleMatchItems(questionParams, showAns, ansExplanation, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, questions, qTypesReq['Match items'], settings, selectedQMap['Match items'], areQuesMixed, containerHeadingTd));
     }
 
 
@@ -665,7 +673,7 @@ function DOMHandleSingleLineQ(question, showAns, answer, qType, provideAnsSpace,
 }
 
 // function to handle Match items based questions
-function DOMHandleMatchItems(JSONObj, showAns, answer, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, questions, qRequired, settings, matchItemsMap, areQuesMixed) {
+function DOMHandleMatchItems(JSONObj, showAns, answer, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, questions, qRequired, settings, matchItemsMap, areQuesMixed, containerHeadingTd) {
 
     // fetch the selected match items from the merged object
     const selectedData = getMatchItemsFromMergedObj(JSONObj, qRequired, settings, questions, matchItemsMap, qType);
@@ -677,6 +685,11 @@ function DOMHandleMatchItems(JSONObj, showAns, answer, qType, provideAnsSpace, s
     const colAHeading = selectedData['colAHeading'];
     const colBHeading = selectedData['colBHeading'];
     const question = selectedData['question'];
+
+    // change the container heading, if the container contains only this question alone
+    if(containerHeadingTd) {
+        containerHeadingTd.textContent = question;
+    }
     
 
     // store answers before shuffling the match items
