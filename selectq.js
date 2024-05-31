@@ -17,25 +17,22 @@ const mergeableQTypes = ['Match items'];
 // question paper map
 const questionPaperMap = {
     "gk": {
-        "MCQ": 2,
+        "MCQ": 5,
         "Very Short Answer Type": 10,
         "Short Answer Type": 10,
         "Long Answer Type": 10,
-        "True/False": 2,
+        "True/False": 10,
         "Fill up": 10,
-        "Match items": 10,
+        "Match items": 9999,
         "Diagram/Picture/Map Based": 1,
         "audio": false,
         "image": false,
         "video": false
     },
-    "gk-2": {
-        "MCQ": 10,
-        "Short Answer Type": 10,
-        "True/False": 10,
-        "Very Short Answer Type": 10,
-        "Long Answer Type": 10,
-        "Match items": 10,
+    "ch-2": {
+        "MCQ": 0,
+        "Short Answer Type": 0,
+        "Long Answer Type": 0,
         "audio": false,
         "image": false,
         "video": false
@@ -67,7 +64,7 @@ const qContainers = {
                       "Very Short Answer Type": 3
                  },
                  {
-                       "Match items": 10 ,
+                       "Match items": 8 ,
                  },
                  {
                        "Diagram/Picture/Map Based": 1
@@ -429,7 +426,7 @@ function countToBeInserted(qContainers) {
 async function start() {
 
   // fetch all questions from all files
-  questions = await fetchMultipleFilesData("gk+gk-2");
+  questions = await fetchMultipleFilesData("gk");
 
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
@@ -801,8 +798,10 @@ function mergeMatchItems(questions, matchItemsMap) {
     }
 
     // sort map first, to achieve least question deficit in case merging isn't allowed   
+console.log("Map before:", [...matchItemsMap])
 
 matchItemsMap = sortMergeableForLeastDeficit(matchItemsMap, 'Match items');
+console.log("Map after:", [...matchItemsMap])
 
     const mergedObj = {
             "qType": "Match items",
@@ -842,6 +841,7 @@ matchItemsMap = sortMergeableForLeastDeficit(matchItemsMap, 'Match items');
 
     // store new mergedObj in the mergedQuestions global object 
     mergedQuestions['Match items'] = "JSONParams:" + JSON.stringify(mergedObj) ;
+
 
     // insert a dummy value in the match items map, so that it doesn't look like there are no such questions, when used in other functions
     matchItemsMap.push(-1);
@@ -887,14 +887,18 @@ function sortMergeableForLeastDeficit(indexMap, qType) {
          // inner loop ends
          diffMatrix.push(diffArray);
      }
+     // if ends
     }
+    // outer for loop ends
 
     // if matrix is empty, return an empty array (no elements)
     if(diffMatrix.length === 0) {
         return [];
     }
 
-    // outer for loop ends
+    console.log("Difference matrix:", diffMatrix);
+
+    
     let replacementIndices = extractReplacementIndicesFromMatrix(diffMatrix, indexMap.length);
 
 
@@ -931,12 +935,22 @@ function extractReplacementIndicesFromMatrix(matrix, indicesReq) {
 
     let sortedArr = sortForMinDiff(arr);
 
+    console.log("Sorted diff array:", [...sortedArr]);
+
    //pick the index of the first item (least difference item) from the sorted array and push it into replacementIndices if settings don't allow randomized selection or it is not the last array in the matrix. Otherwise, randomly pick any non-negative item from the sorted diff array
 
     if(qContainers['settings']['randomiseSelection'] && j === matrix.length - 1) {
 
         let nonNegativeItem = sortedArr.filter(item => item >= 0)[Math.floor(Math.random() * sortedArr.filter(item => item >= 0).length)];
-        replacementIndices.push(arr.indexOf(nonNegativeItem));
+        
+        // if a non-negative diff element found
+        if(nonNegativeItem) {
+          replacementIndices.push(arr.indexOf(nonNegativeItem));
+        }
+        // if no non-negative diff available, pick the first item whatsoever it may be
+        else {
+          replacementIndices.push(arr.indexOf(sortedArr[0]));
+        }
 
     } else {
 
