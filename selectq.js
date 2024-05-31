@@ -431,7 +431,7 @@ function countToBeInserted(qContainers) {
 async function start() {
 
   // fetch all questions from all files
-  questions = await fetchMultipleFilesData("gk");
+  questions = await fetchMultipleFilesData("gk+gk-2");
 
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
