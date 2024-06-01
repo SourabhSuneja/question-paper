@@ -102,7 +102,7 @@ const qContainers = {
           hideWeightage: false,
           border: false,
           shuffleMCQOptions: true,
-          provideAnsOrSpace: "ans",
+          provideAnsOrSpace: "none",
           useDotPatternInBlanks: true,
           showHelpBoxInFillUp: true,
           mergeMatchItems: true,
