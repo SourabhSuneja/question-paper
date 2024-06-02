@@ -428,10 +428,10 @@ function countToBeInserted(qContainers) {
 
 
 // function to start the question fetching and preparation process
-async function start() {
+async function start(filenames) {
 
   // fetch all questions from all files
-  questions = await fetchMultipleFilesData("gk+gk-2");
+  questions = await fetchMultipleFilesData(filenames);
 
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
@@ -807,10 +807,9 @@ function mergeMatchItems(questions, matchItemsMap) {
     }
 
     // sort map first, to achieve least question deficit in case merging isn't allowed   
-console.log("Map before:", [...matchItemsMap])
 
 matchItemsMap = sortMergeableForLeastDeficit(matchItemsMap, 'Match items');
-console.log("Map after:", [...matchItemsMap])
+
 
     const mergedObj = {
             "qType": "Match items",
@@ -905,7 +904,6 @@ function sortMergeableForLeastDeficit(indexMap, qType) {
         return [];
     }
 
-    console.log("Difference matrix:", diffMatrix);
 
     
     let replacementIndices = extractReplacementIndicesFromMatrix(diffMatrix, indexMap.length);
@@ -944,7 +942,6 @@ function extractReplacementIndicesFromMatrix(matrix, indicesReq) {
 
     let sortedArr = sortForMinDiff(arr);
 
-    console.log("Sorted diff array:", [...sortedArr]);
 
    //pick the index of the first item (least difference item) from the sorted array and push it into replacementIndices if settings don't allow randomized selection or it is not the last array in the matrix. Otherwise, randomly pick any non-negative item from the sorted diff array
 
@@ -992,4 +989,6 @@ function sortForMinDiff(array) {
 
 
 // call start function to begin the entire question fetching and selection process
-window.onload = start;
+window.onload = function() {
+  start("gk+gk-2");
+}
