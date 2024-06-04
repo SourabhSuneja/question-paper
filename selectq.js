@@ -4,6 +4,7 @@ let chapterStartPoints;
 let questions;
 let mergedQuestions = {};
 let toBeInserted;
+let mustIncludeIndices = [];
 
 // question bank root URL
 const qbLink = "https://sourabhsuneja.github.io/question-paper/question-bank/";
@@ -324,6 +325,10 @@ async function start(filenames) {
 
   // fetch all questions from all files
   questions = await fetchMultipleFilesData(filenames);
+
+  // consolidate all mustInclude question indices into a single array
+  consolidateMustIncludeIndices();
+  console.log(mustIncludeIndices);
 
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
@@ -888,6 +893,24 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+
+// function to consolidate all mustInclude question indices into a single global array that will later be helpful in filtering out these indices from the selectedQMap
+function consolidateMustIncludeIndices() {
+
+  // looping all objects in mustInclude array in qContainers
+  for(let obj of qContainers['mustInclude']) {
+     // looping all qTypes in the obj
+     for(let key in obj) {
+        const array = qContainers['mustInclude'][obj][key] ;
+        if(array.length !== 0) {
+          mustIncludeIndices.push(...array);
+        }
+     }
+     // inner loop ends
+  }
+  // outer loop ends
+}
+// function ends
 
 // call start function to begin the entire question fetching and selection process
 window.onload = function() {
