@@ -76,11 +76,6 @@ function getComponentsForContainer(containerCount) {
     label.setAttribute("for", containerPrefix + typePrefix + "-number"); 
     label.classList.add("wrapper-label");
 
-    // if it's a mergeable questions type, hide the label
-    if(mergeableQTypes.includes(type)) {
-        label.style.display = "none";
-    }
-
     
     // create a panel div to wrap rest of the content
     let wrapper = document.createElement("div");
@@ -92,6 +87,11 @@ function getComponentsForContainer(containerCount) {
         // must include box
     let mustIncludeBox = createMustIncludeBox(containerCount, type, containerPrefix, typePrefix);
     let lastChild = wrapper.lastElementChild;
+
+    // if it's a mergeable questions type, hide the mustIncludeBox
+    if(mergeableQTypes.includes(type)) {
+        mustIncludeBox.style.display = "none";
+    }
 
         this.classList.toggle("active");
         if(wrapper.style.maxHeight) {
