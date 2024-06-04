@@ -121,6 +121,7 @@ async function createChapterWisePrompt() {
         checkbox.id = ch + "-" +  extraPromptCheckboxes[j]; 
         checkbox.setAttribute("data-chapter", chapterNames[i]);
         checkbox.setAttribute("data-type", extraTypes[j]);
+        checkbox.classList.add(extraPromptCheckboxes[j]);
 
         
         // Create a label element
