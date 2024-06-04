@@ -1,1 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Dynamic Question Paper Generator | Powered by Sourabh Suneja</title>
+   
+    <style>
+        html, body {
+           -webkit-text-size-adjust: none; /* For Safari, iOS Safari */
+            -moz-text-size-adjust: none; /* For Firefox */
+            -ms-text-size-adjust: none; /* For Internet Explorer */
+            text-size-adjust: none; /* Standard property */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        p.subtitle {
+            color: #777;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label, .must-include-heading {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: box-shadow 0.3s ease;
+        }
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            outline: none;
+            box-shadow: 0 0 10px #4CAF50;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #link {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            word-wrap: break-word; /* Added to ensure proper wrapping */
+        }
+        #link a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .ch-prompt, .container-prompt {
+            margin-top: 14px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .ch-prompt h3, .container-prompt h3, #settings h3{
+            color: #555;
+            font-size: 18px;
+        }
+        .ch-prompt input[type="text"], .ch-prompt input[type="number"], .container-prompt input[type="text"], container-prompt input[type="number"] {
+            background-color: white;
+        }
+        .container-prompt h5 {
+            color: #555;
+            font-size: 16px; 
+        }
+        .container-prompt input, .container-prompt label, .container-prompt .must-include-heading {
+            margin: 10px;
+         }
+        .wrapper, #settings-wrapper {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+        .must-include {
+            max-height: 250px;
+            overflow-y: scroll;
+            border: 1px solid RGB(100, 100, 100);
+            border-radius: 5px;
+        }
+        .must-include-heading {
+            font-weight: bold;
+        }
+        #addContainerBtn, #settings, #container-wise-prompt {
+            display: none;
+        }
+        .wrapper-label {
+            cursor: pointer;
+        }
+       .wrapper-label::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 5px 0 5px; 
+    border-color: #000 transparent transparent transparent; 
+    margin-right: 5px; 
+    padding-bottom: 2px;
+    transition: all 0.2s ease; 
+}
+
+.wrapper-label.active::before {
+    transform: rotate(180deg); 
+}
+    </style>
+    
+</head>
+<body>
+
+<div class="container">
+    <h2>Dynamic Question Paper Generator</h2>
+    <p class="subtitle">Powered by Sourabh Suneja</p>
+    <form id="form">
+        <label for="school-name">School Name:</label>
+        <input type="text" id="school-name" name="school-name" value="Jamna Vidyapeeth">
+        <label for="exam-name">Exam Name:</label>
+        <input type="text" id="exam-name" name="exam-name" value="Periodic Test - I (2024-25)">
+        <label for="exam-duration">Exam Duration (in minutes):</label>
+        <input type="number" id="exam-duration" name="exam-duration" value="60">
+            <label for="grade">Select Grade:</label>
+    <select id="grade" name="grade">
+        <option value="I" selected>I</option>
+        <option value="II">II</option>
+        <option value="III">III</option>
+        <option value="IV">IV</option>
+        <option value="V">V</option>
+        <option value="VI">VI</option>
+        <option value="VII">VII</option>
+        <option value="VIII">VIII</option> 
+        <option value="IX">IX</option>     
+        <option value="X">X</option>
+        <option value="XI">XI</option>
+        <option value="XII">XII</option>
+    </select>
+        <label for="subject">Subject Name:</label>
+        <input type="text" id="subject" name="subject" value="Computer">
+        <label for="chapters">Chapter Files (separated by +):</label>
+        <input type="text" id="chapters" name="chapters">
+
+        <div id="chapter-wise-prompt"></div>
+
+        <!-- container-wise-prompt starts -->
+        <div id="container-wise-prompt">
+            
+        </div>
+        <!-- container-wise-prompt ends -->
+        
+       <br>
+        <button id="addContainerBtn" type="button" onclick="createContainer()">Add Another Container</button>
+
+        <br>
+        <!-- settings start -->
+        <div id="settings">
+
+<h3 class="wrapper-label" onclick="toggleSettingsVisibility(this)">Additional Settings:</h3>
+
+<div id="settings-wrapper">
+
+<label for="overall-difficulty">Overall Difficulty Level:</label>
+<select id="overall-difficulty">
+  <option value="easy" selected>Easy</option>
+  <option value="medium">Medium</option>
+  <option value="hard">Hard</option>
+</select>
+
+<label for="randomise-selection">Randomise Question Selection:</label>
+<select class="simple-boolean" id="randomise-selection" data-name="randomiseSelection">
+  <option value="true" selected>Yes</option>
+  <option value="false">No</option>
+</select>
+
+<label for="editable">Allow Editing in Paper:</label>
+<select id="editable" class="simple-boolean" data-name="editable">
+  <option value="true" selected>Yes</option>
+  <option value="false">No</option>
+</select>
+
+<label for="hide-weightage">Hide Question Weightages:</label>
+<select id="hide-weightage" class="simple-boolean" data-name="hideWeightage">
+  <option value="true">Yes</option>
+  <option value="false" selected>No</option>
+</select>
+
+<label for="border">Show Paper in a Tabular Format (with boundaries):</label>
+<select id="border" class="simple-boolean" data-name="border">
+  <option value="true">Yes</option>
+  <option value="false" selected>No</option>
+</select>
+
+<label for="shuffle-mcq-options">Shuffle MCQ Options:</label>
+<select id="shuffle-mcq-options" class="simple-boolean" data-name="shuffleMCQOptions">
+  <option value="true">Yes</option>
+  <option value="false" selected>No</option>
+</select>
+
+<label for="use-dot-patterns">Use dot patterns in blanks:</label>
+<select id="use-dot-patterns" class="simple-boolean" data-name="useDotPatternInBlanks">
+  <option value="true" selected>Yes</option>
+  <option value="false">No</option>
+</select>
+
+<label for="help-box-in-fill-up">Provide a Help box in Fill ups:</label>
+<select id="help-box-in-fill-up" class="simple-boolean" data-name="showHelpBoxInFillUp">
+  <option value="true">Yes</option>
+  <option value="false" selected>No</option>
+</select>
+
+<label for="merge-match-items">Merge match items from across the chapters:</label>
+<select id="merge-match-items" class="simple-boolean" data-name="mergeMatchItems">
+  <option value="true" selected>Yes</option>
+  <option value="false">No</option>
+</select>
+
+<label for="flip-tf">Randomly transform True/False statements (True statements become False and vice versa):</label>
+<select id="flip-tf">
+  <option value="true">Yes</option>
+  <option value="false" selected>No</option>
+</select>
+
+ <label for="mcq-to-fill-up">Convert this many MCQs to Fill ups (if possible):</label>
+        <input type="number" id="mcq-to-fill-up" name="mcq-to-fill-up" value="0">
+
+<label for="mcq-to-tf">Convert this many MCQs to True/False (if possible):</label>
+        <input type="number" id="mcq-to-tf" name="mcq-to-tf" value="0">
+
+<label for="mcq-to-vsa">Convert this many MCQs to Very Short Answer Type Questions (if possible):</label>
+        <input type="number" id="mcq-to-vsa" name="mcq-to-vsa" value="0">
+
+<label for="space-or-ans">Provide Space or Answers in the Paper:</label>
+<select id="space-or-ans">
+  <option value="space">Space for answers (Worksheet Pattern)</option>
+  <option value="ans">Answers (Solved Paper)</option>
+  <option value="none" selected>Nothing</option>
+</select>
+
+ <label for="space-for-vsa">Provide this many lines of space for Very Short Answer Type Questions:</label>
+        <input type="number" id="space-for-vsa" name="space-for-vsa" value="1" class="space-number" data-type="Very Short Answer Type">
+
+<label for="space-for-sa">Provide this many lines of space for Short Answer Type Questions:</label>
+        <input type="number" id="space-for-sa" name="space-for-sa" value="3" class="space-number" data-type="Short Answer Type">
+
+<label for="space-for-la">Provide this many lines of space for Long Answer Type Questions:</label>
+        <input type="number" id="space-for-la" name="space-for-la" value="5" class="space-number" data-type="Long Answer Type">
+
+<label for="space-for-vla">Provide this many lines of space for Very Long Answer Type Questions:</label>
+        <input type="number" id="space-for-vla" name="space-for-vla" value="8" class="space-number" data-type="Very Long Answer Type">
+
+<label for="space-for-diagram-based">Provide this many lines of space for Diagram/Picture/Map Based Questions:</label>
+        <input type="number" id="space-for-diagram-based" name="space-for-diagram-based" value="6" class="space-number" data-type="Diagram/Picture/Map Based">
+
+
+<label>
+  <input type="checkbox" name="images-in-mcq" id="images-in-mcq" value="images-in-mcq" class="allow-images-checkbox" data-type="MCQ">
+  Allow images in MCQs
+</label>
+
+<label>
+  <input type="checkbox" name="images-in-fillup" id="images-in-fillup" value="images-in-fillup" class="allow-images-checkbox" data-type="Fill up">
+  Allow images in Fill ups
+</label>
+
+<label>
+  <input type="checkbox" name="images-in-tf" id="images-in-tf" value="images-in-tf" class="allow-images-checkbox" data-type="True/False">
+  Allow images in TF
+</label>
+
+<label>
+  <input type="checkbox" name="images-in-vsa" id="images-in-vsa" value="images-in-vsa" class="allow-images-checkbox" data-type="Very Short Answer Type">
+  Allow images in Very Short Answer Type Questions
+</label>
+
+<label>
+  <input type="checkbox" name="images-in-sa" id="images-in-sa" value="images-in-sa" class="allow-images-checkbox" data-type="Short Answer Type" checked>
+  Allow images in Short Answer Type Questions
+</label>
+
+<label>
+  <input type="checkbox" name="images-in-la" id="images-in-la" value="images-in-la" class="allow-images-checkbox" data-type="Long Answer Type" checked>
+  Allow images in Long Answer Type Questions
+</label>
+
+<label>
+  <input type="checkbox" name="images-in-vla" id="images-in-vla" value="images-in-vla" class="allow-images-checkbox" data-type="Very Long Answer Type" checked>
+  Allow images in Very Long Answer Type Questions
+</label>
+
+<label style="display: none">
+  <input type="checkbox" name="images-in-diagram-based" id="images-in-diagram-based" value="images-in-diagram-based" class="allow-images-checkbox" data-type="Diagram/Picture/Map Based" checked>
+  Allow images in Diagram/Picture/Map Based Questions
+</label>
+
+
+
+</div>
+            
+        </div>
+        <!-- settings end -->
+
+        <br>
+        <button type="button" onclick="generateLink()">Generate Link</button>
+    </form>
+    <div id="link"></div>
+    
+</div>
+
+<script src="createContainer.js"></script>
+<script src="quick-read-chapters.js"></script>
+<script src="createObjects.js"></script>
+</body>
+</html>
 
