@@ -256,7 +256,7 @@ function generateLink() {
   a.textContent = url;
   a.setAttribute('target', '_blank');
 
-  document.getElementById('link').appendChild(a);
+document.getElementById('link').innerHTML = ""; document.getElementById('link').appendChild(a);
 
 }
 // function ends
