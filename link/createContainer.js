@@ -80,6 +80,7 @@ function getComponentsForContainer(containerCount) {
 
     let showMatchItemsLabel = false;
     if(type === 'Match items') {
+      label.classList.add('mi-labels');
       const checkboxes = document.querySelectorAll('.ch-prompt .include-match-items');
       for(let y=0; y<checkboxes.length; y++) {
           if(checkboxes[y].checked) {
