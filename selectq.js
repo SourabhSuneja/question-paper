@@ -15,126 +15,14 @@ const difficultyLevels = { "easy": [10, 25], "medium": [50, 75], "hard": [100] }
 const mergeableQTypes = ['Match items'];
 
 // question paper map
-const questionPaperMap = {
-    "gk": {
-        "MCQ": 5,
-        "Very Short Answer Type": 10,
-        "Short Answer Type": 10,
-        "Long Answer Type": 10,
-        "True/False": 10,
-        "Fill up": 10,
-        "Match items": 9999,
-        "Diagram/Picture/Map Based": 1,
-        "audio": false,
-        "image": false,
-        "video": false
-    },
-    "gk-2": {
-        "MCQ": 5,
-        "Very Short Answer Type": 10,
-        "Short Answer Type": 10,
-        "Long Answer Type": 10,
-        "True/False": 10,
-        "Fill up": 10,
-        "Match items": 9999,
-        "Diagram/Picture/Map Based": 1,
-        "audio": false,
-        "image": false,
-        "video": false
-    }
-};
+const questionPaperMap = JSON.parse(getParameterByName('qpm'));
 
 // question container headings along with number of questions to be included from each qType (MCQ, Fill up etc) with their respective weightages
-const qContainers = {
-    headings: [
-                "", 
-                "",
-                "",
-                "",
-                "",
-                ""
-    ],
-    qTypes: [
-                 {
-                      "MCQ": 5
-                 },
-                 {
-                      "True/False": 5         
-                 },
-                 {
-                      "Fill up": 5
-                  },
-                 {
-                      "Short Answer Type": 2,                
-                      "Very Short Answer Type": 3
-                 },
-                 {
-                       "Match items": 5 ,
-                 },
-                 {
-                       "Diagram/Picture/Map Based": 1
-                 }
-    ],
-    weightPerQ: [
-                 {
-                      "MCQ": 1
-                 },
-                 {
-                      "True/False": 1    
-                 },
-                 {
-                      "Fill up": 1
-                  },
-                 {
-                      "Short Answer Type": 2,                
-                      "Very Short Answer Type": 1
-                 },
-                 {
-                       "Match items": 1
-                 },
-                 {
-                       "Diagram/Picture/Map Based": 3
-                 }
-    ],
-    settings: {
-          randomiseSelection: true,
-          editable: true,
-          hideWeightage: false,
-          border: false,
-          shuffleMCQOptions: true,
-          provideAnsOrSpace: "none",
-          useDotPatternInBlanks: true,
-          showHelpBoxInFillUp: true,
-          mergeMatchItems: true,
-          convertQForm: {
-             "MCQ": {
-                            "toFillUp": 3,
-                            "toTF": 3,
-                            "toVSA": 3
-                           },
-              "flipTF": true
-          },
-          spaceForAns: {
-              "True/False": 1,
-              "Very Short Answer Type": 1,
-              "Short Answer Type": 4,
-              "Long Answer Type": 4,
-              "Diagram/Picture/Map Based": 5
-          },
-    qTypesAllowedInImageQ: [     
-             "MCQ",
-             "Short Answer Type",
-             "Fill up",
-             "True/False",
-             "Match items",
-             "Very Short Answer Type"
-          ]
-    }
-};
+const qContainers = JSON.parse(getParameterByName('qc'));
 
 
 // overall difficulty level of question paper
-const overallDifficulty = "hard";
+const overallDifficulty = getParameterByName('diff');
         
 // Function to fetch data from a file using AJAX and return a promise
 
@@ -986,9 +874,18 @@ function sortForMinDiff(array) {
   return newArr;
 }
 
-
+// Function to get URL parameters
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 
 // call start function to begin the entire question fetching and selection process
 window.onload = function() {
-  start("gk+gk-2");
+  start(getParameterByName('files'));
 }
