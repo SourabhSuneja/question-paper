@@ -169,7 +169,12 @@ function createMustIncludeBox(containerCount, type, containerPrefix, typePrefix)
   for(let j=0; j<qTypeIndexMap[type].length; j++) {
 
     const index = qTypeIndexMap[type][j];
-    const question = extractStringBeforeJSON(allQuestions[index]);
+    let question = extractStringBeforeJSON(allQuestions[index]);
+    // remove options part from the question in case of MCQs
+    if(type === 'MCQ') {
+       const mcqPattern = /\(Options: (.*) Correct: (.*)\)$/i;
+       question = question.replace(mcqPattern, '');
+    }
     const inputID = containerPrefix + typePrefix + "-" + "must-include-qindex-" + index;
 
     // if this question is already checked (already marked as must included) somewhere in any other container, continue to next loop cycle
