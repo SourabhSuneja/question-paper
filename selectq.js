@@ -5,6 +5,9 @@ let questions;
 let mergedQuestions = {};
 let toBeInserted;
 
+// question bank root URL
+const qbLink = "https://sourabhsuneja.github.io/question-paper/question-bank/";
+
 // disallowed qTypes
 const disallowedQTypes = [];
 
@@ -27,6 +30,7 @@ const overallDifficulty = getParameterByName('diff');
 // Function to fetch data from a file using AJAX and return a promise
 
   function fetchData(fileName) {
+    fileName = qbLink + fileName;
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
       xhr.onreadystatechange = function() {
