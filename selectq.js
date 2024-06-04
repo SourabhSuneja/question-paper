@@ -901,7 +901,7 @@ function consolidateMustIncludeIndices() {
   for(let obj of qContainers['mustInclude']) {
      // looping all qTypes in the obj
      for(let key in obj) {
-        const array = qContainers['mustInclude'][obj][key] ;
+        const array = obj[key];
         if(array.length !== 0) {
           mustIncludeIndices.push(...array);
         }
