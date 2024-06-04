@@ -440,6 +440,9 @@ function selectQuestions(questions, chapterNames, chapterIndexMap, cardIndexMap,
           // get questions common to current chapter and current type
           let q = findCommonElements(chapterIndices, typeIndices);
 
+          // filter out question indices which have already been included in mustIncludeIndices
+          q = filterArray(q, mustIncludeIndices);
+
           // if q exceeds number of questions required for this type for this chapter, filter out some questions based on other criteria
 
           // remove video based if video type ques required = 0 
@@ -509,6 +512,12 @@ function convertMCQToOther(questions, selectedQMap, convertTo) {
   // loop through all MCQs and see which of them are convertible into requested type
   for(let i = 0; i < selectedQMap['MCQ'].length && converted < qReq && selectedQMap['MCQ'].length > toBeInserted['MCQ']; i++) {
       const qIndex = selectedQMap['MCQ'][i];
+
+      // if this qIndex is already mentioned in mustIncludeIndices, skip it. No need to convert this question into any other type
+      if(mustIncludeIndices.includes(qIndex)) {
+          continue;
+      }
+
       const qPart = extractStringBeforeJSON(questions[qIndex]);
       const JSONPart = extractJSONFromString(questions[qIndex]);
       const convertibleTo = isMCQConvertible(qPart, lookupKey);
@@ -626,6 +635,12 @@ let selected = [];
 
   // loop through selected indices and flip questions wherever possible
   for(let i = 0; i < selected.length; i++) {
+
+      // if this question index is already mentioned in mustIncludeIndices, skip it. No need to flip this question
+      if(mustIncludeIndices.includes(map[i])) {
+          continue;
+      }
+
       const q = questions[map[i]];
       const originalQ = extractStringBeforeJSON(q);
       const JSONPart = extractJSONFromString(q);
