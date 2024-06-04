@@ -104,7 +104,9 @@ function fillQuestions(selectedQMap, questions, qContainers) {
 
     // Create three table data cells and add them to the row
     let td1 = document.createElement("td");
-    td1.textContent = "Q." + outerQuestionCounter;
+    if(qContainers['headings'].length > 1) {
+        td1.textContent = "Q." + outerQuestionCounter;
+    }
     let td2 = document.createElement("td");
     td2.textContent = containerHeading || generateContainerHeading(areQuesMixed, qTypeInCaseOfOneQ);
     let td3 = document.createElement("td");
