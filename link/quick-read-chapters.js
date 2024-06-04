@@ -123,6 +123,20 @@ async function createChapterWisePrompt() {
         checkbox.setAttribute("data-type", extraTypes[j]);
         checkbox.classList.add(extraPromptCheckboxes[j]);
 
+        // attach an event handler with allow match items checkbox
+        if(j === 0) {
+           checkbox.addEventListener("change", function() {
+               const labels = document.querySelectorAll('.mi-labels');
+               labels.forEach((label) => {
+                      if(this.checked) {
+                         label.style.display = 'block';
+                      } else {
+                         label.style.display = 'none';
+                      }
+                   });
+           });
+        }
+
         
         // Create a label element
         let label = document.createElement('label');
