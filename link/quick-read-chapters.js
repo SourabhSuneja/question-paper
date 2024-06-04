@@ -14,6 +14,7 @@ let uniqueQTypes = [];
 let containerCount = -1;
 let mergeableQTypes = ['Match items'];
 let checkedIndices = [];
+const qbLink = "https://sourabhsuneja.github.io/question-paper/question-bank/";
 
 
 // function to dynamically create chapter-wise no. of questions to be inserted prompts 
@@ -190,6 +191,7 @@ async function fetchMultipleFilesData(fileNames) {
 // Function to fetch data from a file using AJAX and return a promise
 
 function fetchData(fileName) {
+    fileName = qbLink + fileName;
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
       xhr.onreadystatechange = function() {
