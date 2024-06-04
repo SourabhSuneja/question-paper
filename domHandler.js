@@ -137,7 +137,7 @@ function fillQuestions(selectedQMap, questions, qContainers) {
     table.appendChild(tr);
 
     // get required number of questions of specified types for this question container along with their respective weightage arrays
-    const {questions: fetchedQ, weightages: weightageArr, qTypesFetched: qTypesArr} = getQuestionsForContainer(qContainers['qTypes'][i], questions, selectedQMap, qContainers['weightPerQ'][i]);
+    const {questions: fetchedQ, weightages: weightageArr, qTypesFetched: qTypesArr} = getQuestionsForContainer(qContainers['qTypes'][i], questions, selectedQMap, qContainers['weightPerQ'][i], qContainers['mustInclude'][i]);
 
     // if this container contains mergeable qType and doesn't have a mix of questions, and a heading for the container hasn't been supplied explicitly, store a reference to the td containing container heading, so that it can be manipulated directly by the function producing the DOM contents for this qType
     let containerHeadingTd;
@@ -326,17 +326,17 @@ if(!qContainers['settings']['border']) {
 
 
 // function to get the required number of questions for a question container (returns array of question strings with JSON Params attached)
-function getQuestionsForContainer(obj, questions, selectedQMap, weightageObj) {
+function getQuestionsForContainer(obj, questions, selectedQMap, weightageObj, mustIncludeObj) {
     const array = [];
     const weightages = [];
     const qTypesFetched = [];
     for(const key in obj) {
-        if(disallowedQTypes.includes(key) || !selectedQMap[key]) {
+        if(disallowedQTypes.includes(key) || (!selectedQMap[key] && !mustIncludeObj[key]) ) {
           continue;
         }
         const qIndices = selectedQMap[key];
         const qRequired = obj[key];
-        const selectedQIndices = extractAndRemove(qIndices, qRequired);
+        const selectedQIndices = extractAndRemove(qIndices, qRequired, mustIncludeObj[key]);
 
         for(const x of selectedQIndices) {
               // fetch the merged question string from global mergedQuestions object in case of mergeable qTypes, otherwise pull questions from the selected indices in the questions object itself
@@ -359,9 +359,15 @@ function getQuestionsForContainer(obj, questions, selectedQMap, weightageObj) {
 
 
 // function to extract and remove n elements from an array reference
-function extractAndRemove(array, n) {
-    const extracted = array.slice(0, n);
-    array.splice(0, n);
+function extractAndRemove(array, n, mustIncludeArr) {
+    let extracted = [];
+    if(mustIncludeArr && mustIncludeArr.length > 0) {
+      extracted = mustIncludeArr.splice(0, n);
+    }
+    if(extracted.length < n) {
+      extracted.push(...array.splice(0, (n - extracted.length)));
+    }
+    
     return extracted;
 }
 
