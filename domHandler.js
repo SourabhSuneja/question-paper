@@ -1,13 +1,5 @@
 // exam details here
-const examDetails = {
-  "schoolName": "Jamna Vidyapeeth",
-  "schoolLogo": "https://i.postimg.cc/Y0qB2Wyc/images-2024-05-21-T183208-408.jpg",
-  "examName": "Periodic Test - I (2024-25)",
-  "subject": "GK",
-  "grade": "VIII",
-  "date": "2.05.24",
-  "duration": "60"
-}
+const examDetails = JSON.parse(getParameterByName('ed'));
 
 // function to fill paper header
 function fillHeader() {
@@ -15,14 +7,12 @@ function fillHeader() {
   const examName = document.getElementById('examName');
   const grade = document.getElementById('grade');
   const subject = document.getElementById('subject');
-  const logo = document.getElementById('logo');
   const duration = document.getElementById('duration');
   const mm = document.getElementById('mm');
   schoolName.textContent = examDetails['schoolName'];
   examName.textContent = examDetails['examName'];
   subject.textContent = "Subject: " + examDetails['subject'];
   grade.textContent = "Class " + examDetails['grade'];
-  logo.src = examDetails['schoolLogo'];
   duration.innerHTML = "Time: " +  convertMinutesToHours(parseInt(examDetails['duration']))
 }
 
