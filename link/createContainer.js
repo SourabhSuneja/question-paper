@@ -76,6 +76,22 @@ function getComponentsForContainer(containerCount) {
     label.setAttribute("for", containerPrefix + typePrefix + "-number"); 
     label.classList.add("wrapper-label");
 
+    // hide label in case qType is Match items and user hasn't allowed any match items to be included from any chapter
+
+    let showMatchItemsLabel = false;
+    if(type === 'Match items') {
+      const checkboxes = document.querySelectorAll('.ch-prompt .include-match-items');
+      for(let y=0; y<checkboxes.length; y++) {
+          if(checkboxes[y].checked) {
+              showMatchItemsLabel = true;
+              break;
+          }
+       }
+    }
+
+    if(!showMatchItemsLabel && type === 'Match items') {
+        label.style.display = 'none';
+    } 
     
     // create a panel div to wrap rest of the content
     let wrapper = document.createElement("div");
