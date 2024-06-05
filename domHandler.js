@@ -13,7 +13,10 @@ function fillHeader() {
   examName.textContent = examDetails['examName'];
   subject.textContent = "Subject: " + examDetails['subject'];
   grade.textContent = "Class " + examDetails['grade'];
-  duration.innerHTML = "Time: " +  convertMinutesToHours(parseInt(examDetails['duration']))
+  duration.innerHTML = "Time: " +  convertMinutesToHours(parseInt(examDetails['duration']));
+  if(qContainers['settings']['showStudentDetails']) {
+      document.getElementById('student-details').style.display = "block";
+  }
 }
 
 // function to convert mins to hours
