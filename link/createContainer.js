@@ -133,6 +133,9 @@ function getComponentsForContainer(containerCount) {
     input.style.backgroundColor = "white";
     input.value = "0";
 
+    // attach change event handler with input to auto-calculate total weightage of questions added
+    input.addEventListener('input', computeWeightage);
+
     // create label for weightage of questions
     let label2 = document.createElement('label');
     label2.textContent = (type === "Match items")? "Weightage per pair matching:" : "Weightage per question:";
@@ -148,6 +151,9 @@ function getComponentsForContainer(containerCount) {
     input2.setAttribute("data-type", type);
     input2.style.backgroundColor = "white";
     input2.value = "0";
+
+    // attach change event handler with input to auto-calculate total weightage of questions added
+    input2.addEventListener('input', computeWeightage);
 
     
     // append to wrapper
@@ -277,5 +283,30 @@ function checkedInCurrentContainers(qindex, curContainerIndex) {
   }
 
   return false;
+}
+// function ends
+
+// function to auto calculate the total weightage of questions added to all containers
+function computeWeightage() {
+  const message = document.getElementById('message');
+  const nums = document.querySelectorAll('.container-prompt .number-input');
+  const weights = document.querySelectorAll('.container-prompt .weightage-input');
+  let total = 0;
+  // compute total
+  for(let j = 0; j < nums.length; j++) {
+      let n = parseInt(nums[j].value);
+      let w = parseFloat(weights[j].value);
+      n = isNaN(n)? 0 : n;
+      w = isNaN(w)? 0 : w;
+      total += n * w;
+      console.log(total);
+  }
+  // loop ends
+  if(total > 0) {
+    message.textContent = "Total weightage: " + total + "M";
+    message.style.display = "block";
+  } else {
+    message.style.display = "none";
+  }
 }
 // function ends
