@@ -1,1 +1,4 @@
- 
+Give any one example of quantitative data.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Height/weight/distance/number of balls etc.","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Give any one example of qualitative data.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Honesty/intelligence/beauty etc.","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Give any two examples of discrete data.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Number of balls in a box, number of students in a room","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+Give any two examples of continuous data.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Height, weight","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
