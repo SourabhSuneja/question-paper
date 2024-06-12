@@ -194,7 +194,7 @@ function findCommonElements(...arrays) {
 // function to filter out items from array1 that exist in array2 until array1 has reached a specified minimum length
 function filterArray(array1, array2, minLen) {
 
-    if(array1.length <= minLen) {
+    if(array1.length <= minLen || !array2) {
         return array1;
     }
     
