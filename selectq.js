@@ -372,15 +372,18 @@ convertMCQToOther(questions, selectedQMap, "Very Short Answer Type");
 transformTF(questions, selectedQMap['True/False']);
 
 
-// re-filter questions on the basis of difficulty level in case the selected questions are still more than we need
-for(let type in selectedQMap) {
-  const array = selectedQMap[type];
-  if(array.length > toBeInserted[type]) {
+// re-filter questions on the basis of difficulty level in case the selected questions are still more than we need and strict chapter-wise distribution is not enforced
+if(!qContainers['settings']['strictChapterWiseDistribution']) {
+  for(let type in selectedQMap) {
+    const array = selectedQMap[type];
+    if(array.length > toBeInserted[type]) {
       selectedQMap[type] = filterOnDifficultyLevel(array, overallDifficulty, toBeInserted[type], uniqueCardIndices, cardIndexMap);
-  }
+    }
   
+  }
+  // for loop ends
 }
-// for loop ends
+// if ends
 
 
 // merge all match based questions
