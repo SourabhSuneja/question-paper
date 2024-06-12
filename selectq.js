@@ -358,15 +358,6 @@ async function start(filenames) {
   // select questions
   const selectedQMap = selectQuestions(questions, chapterNames, chapterIndexMap, cardIndexMap, qTypeIndexMap, mediaEmbeddedIndexMap, totalQOfEachType, questionPaperMap, overallDifficulty, uniqueCardIndices, uniqueQTypeIndices,  qContainers['settings']['qTypesAllowedInImageQ']);
 
-// re-filter questions on the basis of difficulty level in case the selected questions are more than we need
-for(let type in selectedQMap) {
-  const array = selectedQMap[type];
-  if(array.length > toBeInserted[type]) {
-      selectedQMap[type] = filterOnDifficultyLevel(array, overallDifficulty, toBeInserted[type], uniqueCardIndices, cardIndexMap);
-  }
-  
-}
-// for loop ends
 
 // convert MCQs to Fill ups (if requested)
 convertMCQToOther(questions, selectedQMap, "Fill up"); 
@@ -379,6 +370,18 @@ convertMCQToOther(questions, selectedQMap, "Very Short Answer Type");
 
 // flip True/False questions
 transformTF(questions, selectedQMap['True/False']);
+
+
+// re-filter questions on the basis of difficulty level in case the selected questions are still more than we need
+for(let type in selectedQMap) {
+  const array = selectedQMap[type];
+  if(array.length > toBeInserted[type]) {
+      selectedQMap[type] = filterOnDifficultyLevel(array, overallDifficulty, toBeInserted[type], uniqueCardIndices, cardIndexMap);
+  }
+  
+}
+// for loop ends
+
 
 // merge all match based questions
 selectedQMap['Match items']  = mergeMatchItems(questions, selectedQMap['Match items']);
