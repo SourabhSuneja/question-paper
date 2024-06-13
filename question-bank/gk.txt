@@ -2,4 +2,3 @@ Which country's aspirations for freedom were expressed in this song?<br>(A popul
 
 The famous statue shown in the image is _____________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Statue of Liberty","mediaEmbedded":"image","mediaLink":"https://images.pexels.com/photos/60003/statue-of-liberty-new-york-ny-nyc-60003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2","startTime":0,"endTime":0,"card":25}
 
-The first Indian to receive the Padma Bhushan was ______________. (Options: Option A} Sir C.V. Raman Option B} Satyajit Ray Option C} Ravi Shankar Option D} Lata Mangeshkar  Correct: Sir C.V. Raman)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
