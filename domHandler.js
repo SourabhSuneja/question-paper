@@ -648,9 +648,9 @@ function DOMHandleSingleLineQ(question, showAns, answer, qType, provideAnsSpace,
     parent.appendChild(qHolder);
 
     // if AI-based Editing Buttons requested, fetch and attach them
-    //if(showAIBtns) {
-        //parent.appendChild(getAIBtns(qHolder));
-   // }
+    if(showAIBtns) {
+        parent.appendChild(getAIBtns(qHolder));
+    }
 
     // embed image (if any) with the question
     if(mediaEmbedded === 'image' && mediaLink) {
@@ -1251,3 +1251,19 @@ function changeImageSrcOnLongPress(imageNode) {
 }
 
 
+// function to create AI-based Editing Buttons
+function getAIBtns(element) {      
+        const div = document.createElement('div');
+        div.classList.add('ai-btn-holder');
+        const btn = document.createElement('button');
+        btn.classList.add('ai-reword-btn');
+        btn.textContent = "Re-word Question";
+        btn.addEventListener('click', async function() {
+  element.innerHTML = await reword(element.innerHTML)
+
+});
+
+        div.appendChild(btn);
+        return div;
+}
+// function ends
