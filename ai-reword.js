@@ -49,13 +49,13 @@ export async function run(question) {
       {
         role: "user",
         parts: [
-          {text: "The first Indian to receive the Padma Bhushan was _________"},
+          {text: "The first Indian to receive the Padma Bhushan was ..................."},
         ],
       },
       {
         role: "model",
         parts: [
-          {text: "________ was the first person from India to be awarded the Padma Bhushan. \n"},
+          {text: "................... was the first person from India to be awarded the Padma Bhushan. \n"},
         ],
       },
       {
@@ -85,13 +85,13 @@ export async function run(question) {
       {
         role: "user",
         parts: [
-          {text: "The largest desert in the world is ________."},
+          {text: "The largest desert in the world is .............."},
         ],
       },
       {
         role: "model",
         parts: [
-          {text: "________ is the largest desert in the world. \n"},
+          {text: ".............. is the largest desert in the world. \n"},
         ],
       },
       {
