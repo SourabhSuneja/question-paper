@@ -1251,19 +1251,3 @@ function changeImageSrcOnLongPress(imageNode) {
 }
 
 
-// function to create AI-based Editing Buttons
-function getAIBtns(element) {      
-        const div = document.createElement('div');
-        div.classList.add('ai-btn-holder');
-        const btn = document.createElement('button');
-        btn.classList.add('ai-reword-btn');
-        btn.textContent = "Re-word Question";
-        btn.addEventListener('click', function() {
-  element.innerHTML = reword(element.innerHTML)
-
-});
-
-        div.appendChild(btn);
-        return div;
-}
-// function ends
