@@ -648,9 +648,9 @@ function DOMHandleSingleLineQ(question, showAns, answer, qType, provideAnsSpace,
     parent.appendChild(qHolder);
 
     // if AI-based Editing Buttons requested, fetch and attach them
-    if(showAIBtns) {
-        parent.appendChild(getAIBtns(qHolder));
-    }
+    //if(showAIBtns) {
+        //parent.appendChild(getAIBtns(qHolder));
+   // }
 
     // embed image (if any) with the question
     if(mediaEmbedded === 'image' && mediaLink) {
