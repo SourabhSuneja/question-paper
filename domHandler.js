@@ -1255,9 +1255,11 @@ function changeImageSrcOnLongPress(imageNode) {
 function getAIBtns(element) {     
         const div = document.createElement('div');
         div.classList.add('ai-btn-holder');
+        div.contentEditable = false;
         const btn = document.createElement('button');
         btn.classList.add('ai-reword-btn');
         btn.textContent = "Re-word Question";
+        btn.contentEditable = false;
         btn.addEventListener('click', async function() {
   const overlay = document.getElementById('ai-process-overlay');
   overlay.style.display = "flex";
