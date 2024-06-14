@@ -443,6 +443,16 @@ function getQuestionNode(question, areQuesMixed, settings, questions, qTypesReq,
     }
 
 
+    // if AI editing buttons requested, attach a question re-wording button
+    if(settings['showAIBtns'] && (qType == 'Fill up' || qType == 'Very Short Answer Type' || qType == 'Short Answer Type' || qType == 'Long Answer Type' || qType == 'Very Long Answer Type' || qType == 'Diagram/Picture/Map Based') ) {
+        const div = document.createElement('div');
+        const btn = document.createElement('button');
+        btn.textContent = "Re-word Question";
+        div.appendChild(btn);
+        parent.appendChild(div);
+    }
+
+
     return parent;
     
 }
