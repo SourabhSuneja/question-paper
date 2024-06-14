@@ -55,7 +55,7 @@ export async function run(question) {
       {
         role: "model",
         parts: [
-          {text: "................... was the first person from India to be awarded the Padma Bhushan. \n"},
+          {text: "................... was the first Indian to be awarded the Padma Bhushan. \n"},
         ],
       },
       {
@@ -403,7 +403,7 @@ export async function run(question) {
       {
         role: "model",
         parts: [
-          {text: "The Indian city known as the \"Silicon Valley of India\" is: ________. \n\n\n"},
+          {text: "Which Indian city is known as the \"Silicon Valley of India\"?  \n\n\n"},
         ],
       },
       {
@@ -451,7 +451,7 @@ export async function run(question) {
       {
         role: "model",
         parts: [
-          {text: "Learning anywhere and anytime using the internet is called __________. \n"},
+          {text: "Learning anywhere and anytime using the internet is called __________. \n\n\n"},
         ],
       },
       {
