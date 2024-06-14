@@ -1259,8 +1259,10 @@ function getAIBtns(element) {
         btn.classList.add('ai-reword-btn');
         btn.textContent = "Re-word Question";
         btn.addEventListener('click', async function() {
-  element.innerHTML = await reword(element.innerHTML)
-
+  const overlay = document.getElementById('ai-process-overlay');
+  overlay.style.display = "flex";
+  element.innerHTML = await reword(element.innerHTML);
+  overlay.style.display = "none";
 });
 
         div.appendChild(btn);
