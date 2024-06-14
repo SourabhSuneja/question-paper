@@ -445,13 +445,13 @@ export async function run(question) {
       {
         role: "user",
         parts: [
-          {text: "Learning anywhere and anytime using the Internet is called ................"},
+          {text: "Learning anywhere and anytime using the Internet is called ________."},
         ],
       },
       {
         role: "model",
         parts: [
-          {text: "Learning anywhere and anytime using the internet is called ................. \n"},
+          {text: "Learning anywhere and anytime using the internet is called __________. \n"},
         ],
       },
       {
@@ -475,11 +475,60 @@ export async function run(question) {
       {
         role: "model",
         parts: [
-          {text: "The Great Barrier Reef is located off the coast of ............... \n"},
+          {text: "The Great Barrier Reef is located off the coast of __________. \n"},
+        ],
+      },
+      {
+        role: "user",
+        parts: [
+          {text: "Draw and label the stages of mitosis."},
+        ],
+      },
+      {
+        role: "model",
+        parts: [
+          {text: "Draw and label the stages of mitosis."},
+        ],
+      },
+      {
+        role: "user",
+        parts: [
+          {text: "Label the parts of a flower and explain the function of each part."},
+        ],
+      },
+      {
+        role: "model",
+        parts: [
+          {text: "Label the parts of a flower and explain the function of each part. \n\n"},
+        ],
+      },
+      {
+        role: "user",
+        parts: [
+          {text: "Draw the Bohr model of an atom of oxygen. Label the nucleus, protons, neutrons, and electrons."},
+        ],
+      },
+      {
+        role: "model",
+        parts: [
+          {text: "Draw the Bohr model of an atom of oxygen. Label the nucleus, protons, neutrons, and electrons. \n\n\n"},
+        ],
+      },
+      {
+        role: "user",
+        parts: [
+          {text: "Draw a series circuit with two bulbs, a battery, and a switch."},
+        ],
+      },
+      {
+        role: "model",
+        parts: [
+          {text: "Draw a series circuit with two bulbs, a battery, and a switch. \n\n"},
         ],
       },
     ],
   });
+
 
   const result = await chatSession.sendMessage(question);
 
