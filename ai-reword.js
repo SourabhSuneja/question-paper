@@ -475,7 +475,7 @@ export async function run(question) {
       {
         role: "model",
         parts: [
-          {text: "The Great Barrier Reef is located off the coast of __________. \n"},
+          {text: "The Great Barrier Reef is located off the coast of ............. \n"},
         ],
       },
       {
