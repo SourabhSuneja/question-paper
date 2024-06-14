@@ -435,21 +435,11 @@ function getQuestionNode(question, areQuesMixed, settings, questions, qTypesReq,
     } 
 
     else if(qType == 'Fill up' || qType == 'Very Short Answer Type' || qType == 'Short Answer Type' || qType == 'Long Answer Type' || qType == 'Very Long Answer Type' || qType == 'Diagram/Picture/Map Based') {
-        parent.appendChild( DOMHandleSingleLineQ(questionText, showAns, ansExplanation, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, mediaEmbeddedA, mediaLinkA));
+        parent.appendChild( DOMHandleSingleLineQ(questionText, showAns, ansExplanation, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, mediaEmbeddedA, mediaLinkA, settings['showAIBtns']));
     }
 
     else if (qType == 'Match items') {
          parent.appendChild(DOMHandleMatchItems(questionParams, showAns, ansExplanation, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, questions, qTypesReq['Match items'], settings, selectedQMap['Match items'], areQuesMixed, containerHeadingTd));
-    }
-
-
-    // if AI editing buttons requested, attach a question re-wording button
-    if(settings['showAIBtns'] && (qType == 'Fill up' || qType == 'Very Short Answer Type' || qType == 'Short Answer Type' || qType == 'Long Answer Type' || qType == 'Very Long Answer Type' || qType == 'Diagram/Picture/Map Based') ) {
-        const div = document.createElement('div');
-        const btn = document.createElement('button');
-        btn.textContent = "Re-word Question";
-        div.appendChild(btn);
-        parent.appendChild(div);
     }
 
 
@@ -641,7 +631,7 @@ function DOMHandleTrueFalse(question, areQuesMixed, showAns, answer, provideAnsS
 }
 
 // function to handle plain one line questions
-function DOMHandleSingleLineQ(question, showAns, answer, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, mediaEmbeddedA, mediaLinkA) {
+function DOMHandleSingleLineQ(question, showAns, answer, qType, provideAnsSpace, spaceForAns, mediaEmbedded, mediaLink, isPaperEditable, mediaEmbeddedA, mediaLinkA, showAIBtns) {
 
     // create a parent node
     const parent = document.createElement('div');
@@ -656,6 +646,11 @@ function DOMHandleSingleLineQ(question, showAns, answer, qType, provideAnsSpace,
 
     // append to parent
     parent.appendChild(qHolder);
+
+    // if AI-based Editing Buttons requested, fetch and attach them
+    if(showAIBtns) {
+        parent.appendChild(getAIBtns(qHolder));
+    }
 
     // embed image (if any) with the question
     if(mediaEmbedded === 'image' && mediaLink) {
@@ -1254,3 +1249,21 @@ function changeImageSrcOnLongPress(imageNode) {
     clearTimeout(delayTimer);
   });
 }
+
+
+// function to create AI-based Editing Buttons
+function getAIBtns(element) {      
+        const div = document.createElement('div');
+        div.classList.add('ai-btn-holder');
+        const btn = document.createElement('button');
+        btn.classList.add('ai-reword-btn');
+        btn.textContent = "Re-word Question";
+        btn.addEventListener('click', function() {
+  element.innerHTML = reword(element.innerHTML)
+
+});
+
+        div.appendChild(btn);
+        return div;
+}
+// function ends
