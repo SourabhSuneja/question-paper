@@ -427,7 +427,7 @@ function getQuestionNode(question, areQuesMixed, settings, questions, qTypesReq,
               questionText = replaceUnderscoresWithDots(questionText);
         }
 
-        parent.appendChild( DOMHandleMCQ(questionText, mcqPattern, showAns, shuffleMCQOptions, mediaEmbedded, mediaLink, isPaperEditable));
+        parent.appendChild( DOMHandleMCQ(questionText, mcqPattern, showAns, shuffleMCQOptions, mediaEmbedded, mediaLink, isPaperEditable, settings['showAIBtns']));
     }
 
     else if(qType == 'True/False') {
@@ -450,7 +450,7 @@ function getQuestionNode(question, areQuesMixed, settings, questions, qTypesReq,
 
 // function to handle MCQs and create appropriate HTML node for presentation 
 
-function DOMHandleMCQ(question, mcqPattern, showAns, shuffleMCQOptions, mediaEmbedded, mediaLink, isPaperEditable) {
+function DOMHandleMCQ(question, mcqPattern, showAns, shuffleMCQOptions, mediaEmbedded, mediaLink, isPaperEditable, showAIBtns) {
 
     // separate question part, options & correct answer using regex pattern
     const [, optionsPart, correctAnswer] = mcqPattern.exec(question);
@@ -481,6 +481,11 @@ function DOMHandleMCQ(question, mcqPattern, showAns, shuffleMCQOptions, mediaEmb
 
      // append question div to the parent div
     parent.appendChild(qHolder);
+
+    // if AI-based Editing Buttons requested, fetch and attach them
+    if(showAIBtns) {
+        parent.appendChild(getAIBtns(qHolder));
+    }
 
     // embed image (if any) with the question
     if(mediaEmbedded === 'image' && mediaLink) {
