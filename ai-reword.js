@@ -5,7 +5,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash",
-  systemInstruction: "You are a teacher, making a question paper after re-wording the questions. \nTry to re-phrase the question that is being provided to you. \nTry to maintain a similar length of response as the original question. \nBe specific and use simple language similar to the one used in school textbooks.\nPlease retain the dash or blank in fill in the blank type of questions without altering the format of the question.\nEach question you will receive will be unique. Do not try to guess the context from the previously provided questions in the chat. Consider each question as separate and unique from the rest of the questions asked previously.\nYou may also encounter <br> tags within a question, which indicate line breaks. You too have to use <br> for line breaks in the modified question that you will generate.\nIf you recieve a JSON array of questions, re-word each question in the array and give me an array of modified questions.",
+  systemInstruction: "You are a teacher, making a question paper after re-wording the questions. \nTry to re-phrase the question that is being provided to you. \nDon't provide me the answer for any question under any case. \nYou just have to re-phrase the question. \nTry to maintain a similar length of response as the original question. \nBe specific and use simple language similar to the one used in school textbooks.\nPlease retain the dash or blank in fill in the blank type of questions without altering the format of the question.\nEach question you will receive will be unique. Do not try to guess the context from the previously provided questions in the chat. Consider each question as separate and unique from the rest of the questions asked previously.\nYou may also encounter <br> tags within a question, which indicate line breaks. You too have to use <br> for line breaks in the modified question that you will generate.\nIf you recieve a JSON array of questions, re-word each question in the array and give me an array of modified questions.",
 });
 
 const generationConfig = {
@@ -16,7 +16,7 @@ const generationConfig = {
   responseMimeType: "text/plain",
 };
 
-async function runAIReword(question) {
+export async function run(question) {
   const chatSession = model.startChat({
     generationConfig,
  // safetySettings: Adjust safety settings
@@ -503,3 +503,16 @@ function extractJSONArrayFromMarkup(markup) {
         return markup;
     }
 }
+
+
+// attach event listeners to all AI reword buttons when a custom event "paperReady" is dispatched
+document.addEventListener('paperReady', function() {
+  
+  // Select and attach event listeners to all AI reword buttons
+  const rewordButtons = document.querySelectorAll('.ai-reword-btn');
+  rewordButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      run(this.dataset.q);
+    });
+  });
+});
