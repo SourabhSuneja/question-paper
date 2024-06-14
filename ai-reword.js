@@ -445,13 +445,13 @@ export async function run(question) {
       {
         role: "user",
         parts: [
-          {text: "Learning anywhere and anytime using the Internet is called ________."},
+          {text: "Learning anywhere and anytime using the Internet is called ................"},
         ],
       },
       {
         role: "model",
         parts: [
-          {text: "Learning anywhere and anytime using the internet is called __________. \n"},
+          {text: "Learning anywhere and anytime using the internet is called ................. \n"},
         ],
       },
       {
@@ -475,7 +475,7 @@ export async function run(question) {
       {
         role: "model",
         parts: [
-          {text: "The Great Barrier Reef is located off the coast of __________. \n"},
+          {text: "The Great Barrier Reef is located off the coast of ............... \n"},
         ],
       },
     ],
