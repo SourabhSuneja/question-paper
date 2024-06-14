@@ -485,8 +485,7 @@ export async function run(question) {
 
   const responseArrOrText = extractJSONArrayFromMarkup( result.response.text() );
 
-  document.body.textContent = responseArrOrText;
-  console.log(responseArrOrText);
+  return responseArrOrText;
 }
 
 
@@ -504,15 +503,5 @@ function extractJSONArrayFromMarkup(markup) {
     }
 }
 
-
-// attach event listeners to all AI reword buttons when a custom event "paperReady" is dispatched
-document.addEventListener('paperReady', function() {
-  
-  // Select and attach event listeners to all AI reword buttons
-  const rewordButtons = document.querySelectorAll('.ai-reword-btn');
-  rewordButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      run(this.dataset.q);
-    });
-  });
-});
+// attaching run function as reword with the global window object so that it can be called from anywhere, including non-modular JavaScript files
+window.reword = run;
