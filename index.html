@@ -220,6 +220,27 @@
               display: none !important; 
             }
           }
+
+#ai-process-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000; 
+    display: none;
+  }
+
+  #ai-overlay-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 </head>
@@ -249,6 +270,12 @@ Class & Sec: .............. &nbsp; &nbsp; Roll no.: ................
               </tr>
         </table>
         
+    </div>
+
+    <div id="ai-process-overlay">
+     <div id="ai-overlay-text">
+      Wait. Making the magic happen with AI....
+     </div>
     </div>
     
     <script src="selectq.js"></script>
