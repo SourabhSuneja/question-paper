@@ -1252,7 +1252,8 @@ function changeImageSrcOnLongPress(imageNode) {
 
 
 // function to create AI-based Editing Buttons
-function getAIBtns(element) {      
+function getAIBtns(element) {  
+alert("Entered");    
         const div = document.createElement('div');
         div.classList.add('ai-btn-holder');
         const btn = document.createElement('button');
