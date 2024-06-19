@@ -8,7 +8,7 @@ Who was the first woman to become the President of India?JSONParams:{"qType":"Ve
 What do we call the gases that cause global warming?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Greenhouse gases","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 What is the full form of ISRO?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Indian Space Research Organisation","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 What is the capital of Philippines?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Manila","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
-A plant eating consumer called ________.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Herbivore","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+A plant eating consumer is called ________.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Herbivore","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 Which is the largest delta in the world?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Sundarbans","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 Which planet is called the Earth's twin?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"Venus","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 Which is the only Grand Slam Tennis Tournament that is played on play courts?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"French Open","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
