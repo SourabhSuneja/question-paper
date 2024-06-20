@@ -1,1 +1,5 @@
- 
+The ________ contains the text that you send to all the recipients.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Main document","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The ______ key helps you to move between fields while typing the data.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Tab","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In the data source, data is organised in a tabular form along with the _________ names.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Field","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+You can take ________ of your merged letters.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Printouts","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The data is organised in a tabular form along with field names in __________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Mail merge","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
