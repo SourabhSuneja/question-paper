@@ -3,3 +3,8 @@ The ______ key helps you to move between fields while typing the data.JSONParams
 In the data source, data is organised in a tabular form along with the _________ names.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Field","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 You can take ________ of your merged letters.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Printouts","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 The data is organised in a tabular form along with field names in __________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Mail merge","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+Main document consists of a mailing list.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Field is a column in a data source that contains one type of information.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Merge field combines a recipient list with the main document.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The Mail Merge task pane appears on the right side of the Word window.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The main document and merge fields are required during Mail Merge.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
