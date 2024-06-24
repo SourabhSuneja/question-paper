@@ -3,3 +3,8 @@ The base of a ________ number system is 10.JSONParams:{"qType":"Fill up","weight
 The octal number system consists of _______ digits.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"8","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 ________ number system is understood by the computer system.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Binary","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 _______ number system uses digits 0-9 and the letters A-F.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Hexadecimal","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+You cannot perform arithmetic operations on binary numbers.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+256 is a decimal number.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+A digit is borrowed when 1 is subtracted from 0.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The place value depends on the position of the digit in the number.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+To convert hexadecimal to decimal, you multiply the number with an increasing power of 8.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
