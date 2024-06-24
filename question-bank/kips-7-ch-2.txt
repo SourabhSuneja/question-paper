@@ -3,3 +3,8 @@ _________ is any criminal activity intended to harm anyone using a computer and 
 The process of 'befriending' children on social media to facilitate online or physical sex abuse is called ___________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Cybergrooming","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 The two-step authentication for login involves _________ and ________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Password, OTP","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 McAfee is a popular _________ software.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Antivirus","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+It is safe to share information with the person you know offline.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+It is safe to use both strong and weak passwords.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Uploading embarassing pictures without taking consent is a cybercrime.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+You should not create a fake profile on social media.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+You should never leave the computer unattended.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
