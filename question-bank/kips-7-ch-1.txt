@@ -1,0 +1,5 @@
+The base of a binary number system is _______.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"2","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The base of a ________ number system is 10.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Decimal","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The octal number system consists of _______ digits.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"8","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+________ number system is understood by the computer system.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Binary","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+_______ number system uses digits 0-9 and the letters A-F.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Hexadecimal","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
