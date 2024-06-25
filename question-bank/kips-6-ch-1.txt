@@ -1,0 +1,5 @@
+A _______ is a set of instructions that tells the computer what to do.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Program","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+A ________ language consists of binary numbers, i.e., 0s and 1s.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Machine","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+An _______ is used to translate mnemonic code into machine language.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Assembler","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+_______ languages are used to develop programs for the fields of Artificial Neural Networks.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"AI","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The _______ languages are machine-independent and user-friendly.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"High-level","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
