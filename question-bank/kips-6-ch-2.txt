@@ -3,3 +3,8 @@ The software program used to access and traverse through web pages is known as a
 With ________, customers can view their account balances, pay bills, transfer funds, etc.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"E-banking","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 ________ enables people to learn anytime and anywhere.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"E-learning","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 In _______ audio, stream is digitised and split into small pieces for transmission across the internet.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Internet Radio","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+Tim Berners-Lee is the founder of the World Wide Web.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Coursera is an e-learning application.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+E-commerce stands for electronic commerce.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+BSNL is an internet service provider.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Internet TV is used to deliver television content via an internet connection.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
