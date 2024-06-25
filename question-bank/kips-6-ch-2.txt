@@ -1,0 +1,5 @@
+The _______ is defined as a network of millions of computers connected with each other.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Internet","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The software program used to access and traverse through web pages is known as a __________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Web browser","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+With ________, customers can view their account balances, pay bills, transfer funds, etc.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"E-banking","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+________ enables people to learn anytime and anywhere.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"E-learning","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In _______ audio, stream is digitised and split into small pieces for transmission across the internet.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Internet Radio","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
