@@ -21,3 +21,9 @@ Which country is the largest exporter of oil in the world? (Options: Option A} R
 Who was the first president of the United States? (Options: Option A} George Washington Option B} Thomas Jefferson Option C} Abraham Lincoln Option D} Franklin D. Roosevelt  Correct: George Washington)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 Which country is the largest producer of milk? (Options: Option A} China Option B} India Option C} United States Option D} Brazil  Correct: India)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which city is known as the "City of Canals"? (Options: Option A} Stockholm Option B} Amsterdam Option C} Venice Option D} Copenhagen  Correct: Venice)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
+
+Which ancient wonder was located in Egypt? (Options: Option A} Hanging Gardens of Babylon Option B} Statue of Zeus at Olympia Option C} Great Pyramid of Giza Option D} Temple of Artemis at Ephesus  Correct: Great Pyramid of Giza)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+
+What is the full form of ISRO? (Options: Option A} Indian Scientific Research Organization Option B} International Space Research Organization Option C} Indian Space Research Organisation Option D} Indian Satellite Research Organisation  Correct: Indian Space Research Organisation)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
