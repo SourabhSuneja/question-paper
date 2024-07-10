@@ -7,3 +7,9 @@ Who was the first Indian political figure to receive the Bharat Ratna, India's h
 This radio advertisement is associated with which brand? (Options: Option A} Ariel Option B} Surf Excel Option C} Tide Option D} Nirma  Correct: Tide)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/cXc0fBOMOkw?si=OLfnSgJCht1IvzMK","startTime":0,"endTime":45,"card":100}
 
 This music is the official theme of which sports tournament? (Options: Option A} FIFA World Cup 2022 Option B} FIH Hockey World Cup 2023 Option C} ICC T20 World Cup 2024 Option D} IPL 2024  Correct: ICC T20 World Cup 2024)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/Cv_mtWdmOCU?si=f3gFp-NGkd99rchc","startTime":0,"endTime":38,"card":50}
+
+Which of these monuments is a UNESCO World Heritage Site? (Options: Option A} Ajanta Caves Option B} Taj Mahal Option C} Qutub Minar Option D} Both (a) & (b)  Correct: Both (a) & (b))JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which Indian state has the longest coastline? (Options: Option A} Gujarat Option B} Maharashtra Option C} Tamil Nadu Option D} Andhra Pradesh  Correct: Gujarat)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which movie is this dialogue associated with? (Options: Option A} Dangal Option B} Sholay Option C} Baahubali: The Beginning Option D} Zanjeer  Correct: Sholay)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/SsSZWH9aloc?si=pyzOlK_pJFPMgz64","startTime":0,"endTime":15,"card":10}
