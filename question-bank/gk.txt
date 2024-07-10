@@ -13,3 +13,11 @@ Which of these monuments is a UNESCO World Heritage Site? (Options: Option A} Aj
 Which Indian state has the longest coastline? (Options: Option A} Gujarat Option B} Maharashtra Option C} Tamil Nadu Option D} Andhra Pradesh  Correct: Gujarat)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 
 Which movie is this dialogue associated with? (Options: Option A} Dangal Option B} Sholay Option C} Baahubali: The Beginning Option D} Zanjeer  Correct: Sholay)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/SsSZWH9aloc?si=pyzOlK_pJFPMgz64","startTime":0,"endTime":15,"card":10}
+
+What is the capital of Malaysia? (Options: Option A} Jakarta Option B} Kuala Lumpur Option C} Manila Option D} Riyadh  Correct: Kuala Lumpur)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which country is the largest exporter of oil in the world? (Options: Option A} Russia Option B} UAE Option C} Iraq Option D} Saudi Arabia  Correct: Saudi Arabia)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Who was the first president of the United States? (Options: Option A} George Washington Option B} Thomas Jefferson Option C} Abraham Lincoln Option D} Franklin D. Roosevelt  Correct: George Washington)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which country is the largest producer of milk? (Options: Option A} China Option B} India Option C} United States Option D} Brazil  Correct: India)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
