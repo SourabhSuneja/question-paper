@@ -33,3 +33,7 @@ Who was the founder of the Mauryan Empire? (Options: Option A} Chandragupta Maur
 Which ancient Indian scripture is also known as the "Song of God"? (Options: Option A} Ramayana Option B} Mahabharata Option C} Bhagavad Gita Option D} Upanishads  Correct: Bhagavad Gita)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 
 Who was the founder of the Mughal Empire? (Options: Option A} Akbar Option B} Babur Option C} Shah Jahan Option D} Aurangzeb  Correct: Babur)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which ancient Indian city was the capital of the Gupta Empire? (Options: Option A} Pataliputra Option B} Ayodhya Option C} Varanasi Option D} Ujjain  Correct: Pataliputra)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+
+Which Indian instrument is known for its soothing sound? (Options: Option A} Sitar Option B} Tabla Option C} Tanpura Option D} Flute  Correct: Tanpura)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
