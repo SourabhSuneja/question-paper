@@ -27,3 +27,9 @@ Which city is known as the "City of Canals"? (Options: Option A} Stockholm Optio
 Which ancient wonder was located in Egypt? (Options: Option A} Hanging Gardens of Babylon Option B} Statue of Zeus at Olympia Option C} Great Pyramid of Giza Option D} Temple of Artemis at Ephesus  Correct: Great Pyramid of Giza)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 
 What is the full form of ISRO? (Options: Option A} Indian Scientific Research Organization Option B} International Space Research Organization Option C} Indian Space Research Organisation Option D} Indian Satellite Research Organisation  Correct: Indian Space Research Organisation)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Who was the founder of the Mauryan Empire? (Options: Option A} Chandragupta Maurya Option B} Ashoka Option C} Bindusara Option D} Samudragupta  Correct: Chandragupta Maurya)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which ancient Indian scripture is also known as the "Song of God"? (Options: Option A} Ramayana Option B} Mahabharata Option C} Bhagavad Gita Option D} Upanishads  Correct: Bhagavad Gita)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Who was the founder of the Mughal Empire? (Options: Option A} Akbar Option B} Babur Option C} Shah Jahan Option D} Aurangzeb  Correct: Babur)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
