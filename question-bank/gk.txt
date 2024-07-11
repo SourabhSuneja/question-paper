@@ -46,4 +46,4 @@ Who is the current Governor of the Reserve Bank of India (RBI)? (Options: Option
 
 Which movie is this song associated with? (Options: Option A} Stanley Ka Dibba Option B} Koi Mil Gaya Option C} I am Kalam Option D} Taare Zameen Par  Correct: Taare Zameen Par)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/kaMB6Rw8XzA?si=DJkpzMRsLDtLCXeD","startTime":152,"endTime":177,"card":10}
 
-Which brand is this TV advertisement associated with? (Options: Option A} Cadbury Option B} Flipkart Option C} Amazon Option D} Snapdeal  Correct: Snapdeal)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"video","mediaLink":"https://youtu.be/zC04GWZHm44?si=8YDOdiioobCqoqXS","startTime":60,"endTime":112,"card":50}
+Which brand is this TV advertisement associated with? (Options: Option A} Cadbury Option B} Flipkart Option C} Amazon Option D} Snapdeal  Correct: Snapdeal)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"video","mediaLink":"https://youtu.be/zC04GWZHm44?si=8YDOdiioobCqoqXS","startTime":120,"endTime":176,"card":50}
