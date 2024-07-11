@@ -37,3 +37,9 @@ Who was the founder of the Mughal Empire? (Options: Option A} Akbar Option B} Ba
 Which ancient Indian city was the capital of the Gupta Empire? (Options: Option A} Pataliputra Option B} Ayodhya Option C} Varanasi Option D} Ujjain  Correct: Pataliputra)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 
 Which Indian instrument is known for its soothing sound? (Options: Option A} Sitar Option B} Tabla Option C} Tanpura Option D} Flute  Correct: Tanpura)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
+
+What is the name of India's first completely homegrown COVID-19 vaccine? (Options: Option A} Covishield Option B} Covaxin Option C} Sputnik V Option D} Moderna  Correct: Covaxin)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which city hosted the 2020 IPL Final? (Options: Option A} Mumbai Option B} Delhi Option C} Dubai Option D} Ahmedabad  Correct: Dubai)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"The 2020 IPL was held in UAE due to COVID-19 pandemic. The final match of the tournament was played in Dubai.","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+
+Who is the current Governor of the Reserve Bank of India (RBI)? (Options: Option A} Shaktikanta Das Option B} Urjit Patel Option C} Raghuram Rajan Option D} Viral Acharya  Correct: Shaktikanta Das)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
