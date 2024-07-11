@@ -43,3 +43,5 @@ What is the name of India's first completely homegrown COVID-19 vaccine? (Option
 Which city hosted the 2020 IPL Final? (Options: Option A} Mumbai Option B} Delhi Option C} Dubai Option D} Ahmedabad  Correct: Dubai)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"The 2020 IPL was held in UAE due to COVID-19 pandemic. The final match of the tournament was played in Dubai.","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 
 Who is the current Governor of the Reserve Bank of India (RBI)? (Options: Option A} Shaktikanta Das Option B} Urjit Patel Option C} Raghuram Rajan Option D} Viral Acharya  Correct: Shaktikanta Das)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which movie is this song associated with? (Options: Option A} Stanley Ka Dibba Option B} Koi Mil Gaya Option C} I am Kalam Option D} Taare Zameen Par  Correct: Taare Zameen Par)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/kaMB6Rw8XzA?si=DJkpzMRsLDtLCXeD","startTime":92,"endTime":177,"card":10}
