@@ -1,0 +1,40 @@
+Who was the first Indian political figure to receive the Bharat Ratna, India's highest civilian award? (Options: Option A} V.V. Giri Option B} Dr. Rajendra Prasad Option C} Sarvepalli Radhakrishnan Option D} Dr. Zakir Husain  Correct: Sarvepalli Radhakrishnan)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"He received this honor in 1954 for his distinguished service to the nation in the field of education. Radhakrishnan was a renowned philosopher, scholar, and statesman who also served as the first Vice President and the second President of independent India.","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
+
+This radio advertisement is associated with which brand? (Options: Option A} Ariel Option B} Surf Excel Option C} Tide Option D} Nirma  Correct: Tide)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/cXc0fBOMOkw?si=OLfnSgJCht1IvzMK","startTime":0,"endTime":45,"card":100}
+
+Which of these monuments is a UNESCO World Heritage Site? (Options: Option A} Ajanta Caves Option B} Taj Mahal Option C} Qutub Minar Option D} Both (a) & (b)  Correct: Both (a) & (b))JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which country is the largest producer of milk? (Options: Option A} China Option B} India Option C} United States Option D} Brazil  Correct: India)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which country is the largest exporter of oil in the world? (Options: Option A} Russia Option B} UAE Option C} Iraq Option D} Saudi Arabia  Correct: Saudi Arabia)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Who was the founder of the Mauryan Empire? (Options: Option A} Chandragupta Maurya Option B} Ashoka Option C} Bindusara Option D} Samudragupta  Correct: Chandragupta Maurya)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which ancient Indian city was the capital of the Gupta Empire? (Options: Option A} Pataliputra Option B} Ayodhya Option C} Varanasi Option D} Ujjain  Correct: Pataliputra)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+
+What is the name of India's first completely homegrown COVID-19 vaccine? (Options: Option A} Covishield Option B} Covaxin Option C} Sputnik V Option D} Moderna  Correct: Covaxin)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Who is the current Governor of the Reserve Bank of India (RBI)? (Options: Option A} Shaktikanta Das Option B} Urjit Patel Option C} Raghuram Rajan Option D} Viral Acharya  Correct: Shaktikanta Das)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+
+Which brand is this TV advertisement associated with? (Options: Option A} Cadbury Option B} Flipkart Option C} Amazon Option D} Snapdeal  Correct: Snapdeal)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"video","mediaLink":"https://youtu.be/zC04GWZHm44?si=8YDOdiioobCqoqXS","startTime":120,"endTime":176,"card":50}
+
+Which brand is this advertisement associated with? (Options: Option A} Ambuja Cement Option B} Birla Opus Option C} Asian Paints Option D} Close up  Correct: Birla Opus)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"audio","mediaLink":"https://youtu.be/ZB-NFKHvmFE?si=TW8yM9q_NtI79rzd","startTime":23,"endTime":38,"card":10}
+
+Which popular brand does this radio ad belong to? (Options: Option A} Reid & Taylor Option B} Cadbury Option C} Amul Option D} Nestle  Correct: Cadbury)JSONParams:{"weightage":1,"mediaEmbedded":"audio","mediaLink":"https://youtu.be/K5UNz3GVlcE?si=PcYbDvfzGHevYUhs","startTime":0,"endTime":42,"card":25,"qType": "MCQ"}
+
+Which famous historical battle is featured in this film? (Options: Option A} Battle of Panipat Option B} Anglo-Maratha War Option C} Battle of Saragarhi Option D} Battle of Punjab Correct: Battle of Saragarhi)JSONParams:{"weightage":1,"ansExplanation":"The Battle of Saragarhi was a historic last stand in 1897 where 21 Sikh soldiers defended a small outpost against thousands of Pashtun tribesmen. Despite overwhelming odds, the Sikhs fought bravely, holding off the attackers until they were all killed.","mediaEmbedded":"video","mediaLink":"https://youtu.be/tionpZAVPd4?si=tuDsxkgemv1djUEK","startTime":60,"endTime":90,"card":50,"qType": "MCQ"}
+
+The Parliament of India consists of how many houses? (Options: Option A} One Option B} Two Option C} Three Option D} Four Correct: Two)JSONParams:{"weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10,"qType": "MCQ"}
+
+Which freedom fighter is being discussed in the audio clip? (Options: Option A} Chandra Shekhar Azad Option B} Mahatma Gandhi Option C} Subhash Chandra Bose Option D} Sardar Udham Singh  Correct: Subhash Chandra Bose)JSONParams:{"weightage":1,"mediaEmbedded":"audio","mediaLink":"https://youtu.be/xGjZ98_JLR8?si=3G0lbwup2GNkCdxi","startTime":103,"endTime":124,"card":10,"qType": "MCQ"}
+
+Which renowned company aired this television advertisement with a societal plea to conserve water? (Options: Option A} Euroka Forbes (Aquaguard) Option B} Kent Option C} Havells Option D} Hindustan Unilever  Correct: Hindustan Unilever)JSONParams:{"weightage":1,"mediaEmbedded":"video","mediaLink":"https://youtu.be/2bdvoVr64HI?si=XJutJY2hlmgQSB6R","startTime":0,"endTime":69,"card":50,"qType": "MCQ"}
+
+This logo belongs to which brand? (Options: Option A} Starbucks Option B} KFC Option C} Burger King Option D} Subway  Correct: Starbucks)JSONParams:{"weightage":1,"mediaEmbedded":"image","mediaLink":"https://images.pexels.com/photos/1437318/pexels-photo-1437318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2","startTime":0,"endTime":0,"card":10,"qType": "MCQ"}
+
+Identify this famous Indian temple from the image.(Options: Option A} Somnath Option B} Vishwanath Option C} Konark Sun Temple Option D} Kedarnath Correct: Konark Sun Temple)JSONParams:{"weightage":1, "mediaEmbedded": "image", "mediaLink": "https://images.pexels.com/photos/6040175/pexels-photo-6040175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "startTime": 0, "endTime": 0,"card":50,"qType": "MCQ"}
+
+The Indian city known as the "Silicon Valley of India" is: (Options: Option A} Bangalore Option B} Hyderabad Option C} Chennai Option D} Pune Correct: Bangalore)JSONParams:{"weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25,"qType": "MCQ"}
+
+Who built the Konark Sun Temple?(Options: Option A} King Ashoka Option B} King Vikramaditya Option C} King Narasimhadeva I Option D} Queen Ahilyabai Holkar Correct: King Narasimhadeva I)JSONParams:{"weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50,"qType": "MCQ"}
+
