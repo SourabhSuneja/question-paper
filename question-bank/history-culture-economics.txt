@@ -38,3 +38,15 @@ The Indian city known as the "Silicon Valley of India" is: (Options: Option A} B
 
 Who built the Konark Sun Temple?(Options: Option A} King Ashoka Option B} King Vikramaditya Option C} King Narasimhadeva I Option D} Queen Ahilyabai Holkar Correct: King Narasimhadeva I)JSONParams:{"weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50,"qType": "MCQ"}
 
+In which of the following year, the Taj Mahal was made a UNESCO World Heritage Site? (Options: Option A} 1981 Option B} 1982 Option C} 1983 Option D} 1984  Correct: 1983)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+
+‘Nilgiri Tahr’ is the state animal of which state/UT? (Options: Option A} Karnataka Option B} Kerala Option C} Tamil Nadu Option D} Andhra Pradesh  Correct: Tamil Nadu)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
+
+RBI was nationalized in which year? (Options: Option A} 1949 Option B} 1935 Option C} 1960 Option D} 1980  Correct: 1949)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+
+E-Commerce stands for __________.(Options: Option A} Electrical Commerce Option B} Electronic Commerce Option C} Entertainment Commerce Option D} ElectroChemical Commerce  Correct: Electronic Commerce)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What does advertisement mean? (Options: Option A} Attracting the customers toward the product Option B} To sell goods on credit. Option C} To attract the wholesaler Option D} To attract the retailer  Correct: Attracting the customers toward the product)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+
+
