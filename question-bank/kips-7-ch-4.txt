@@ -1,0 +1,5 @@
+A formula always begins with an ________ symbol.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Equals to","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The cell address in a formula is also called __________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Cell Reference","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+________ function returns the current date and time.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"NOW()","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The cell address in a formula that does not change on copying is considered as ___________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Absolute Reference","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+__________ are the input values to functions that can accept numbers, text etc.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Arguments","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
