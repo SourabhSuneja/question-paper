@@ -3,3 +3,8 @@ The cell address in a formula is also called __________.JSONParams:{"qType":"Fil
 ________ function returns the current date and time.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"NOW()","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 The cell address in a formula that does not change on copying is considered as ___________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Absolute Reference","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 __________ are the input values to functions that can accept numbers, text etc.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Arguments","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+The function names are not case-sensitive.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+In absolute referencing, '$' sign is used before the column numbers.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+A range can be used in a formula.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The error #VALUE occurs if a number is divided by zero.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+LEN(string) function finds the length of the given string.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
