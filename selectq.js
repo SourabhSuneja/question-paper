@@ -328,7 +328,6 @@ async function start(filenames) {
 
   // consolidate all mustInclude question indices into a single array
   consolidateMustIncludeIndices();
-  console.log(mustIncludeIndices);
 
   // get total count of each type of questions on the basis of question paper map
   let totalQOfEachType = countEachQuestionType(questionPaperMap)
