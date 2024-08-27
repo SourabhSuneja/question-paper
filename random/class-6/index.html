@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 6 Computer Worksheet</title>
+    <script>
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function generateRandomLink() {
+            // Randomize question counts
+            let fillUp = getRandomInt(1, 3);
+            let trueFalse = getRandomInt(1, 2);
+            let mcq = getRandomInt(1, 3);
+            let shortLongAnswer = getRandomInt(3, 6);
+
+            // Ensure total number of questions is exactly 10
+            let totalQuestions = fillUp + trueFalse + mcq + shortLongAnswer;
+
+            if (totalQuestions > 10) {
+                let excess = totalQuestions - 10;
+                // Reduce excess from shortLongAnswer first
+                shortLongAnswer = Math.max(shortLongAnswer - excess, 0);
+                excess = totalQuestions - 10;
+                if (excess > 0) {
+                    trueFalse = Math.max(trueFalse - excess, 0);
+                }
+            } 
+
+            // Recalculate total questions after adjustments
+            totalQuestions = fillUp + trueFalse + mcq + shortLongAnswer;
+
+            // Check for shortfall and adjust the "Short Answer Type" in qTypes object
+            if (totalQuestions < 10) {
+                let shortfall = 10 - totalQuestions;
+                shortLongAnswer += shortfall; // Adjust the shortfall
+            }
+
+            // Randomize difficulty level
+            let difficultyLevels = ["easy", "medium", "hard"];
+            let difficulty = difficultyLevels[getRandomInt(0, 2)];
+
+            // Base URL
+            let baseURL = "https://sourabhsuneja.github.io/question-paper/";
+
+            // Encoded JSON for questions per chapter (qpm parameter)
+            let qpm = encodeURIComponent(JSON.stringify({
+                "kips-6-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false },
+                "kips-6-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false },
+                "kips-6-ch-3": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false },
+                "kips-6-ch-4": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false }
+            }));
+
+            // Final URL construction
+            let finalURL = `${baseURL}?ed=%7B%22schoolName%22%3A%22Jamna%20Vidyapeeth%22%2C%22examName%22%3A%22Practice%20Worksheet%22%2C%22subject%22%3A%22Computer%22%2C%22duration%22%3A60%2C%22grade%22%3A%22VI%22%7D&qpm=${qpm}&qc=%7B%22headings%22%3A%5B%22%22%5D%2C%22qTypes%22%3A%5B%7B%22Fill%20up%22%3A${fillUp}%2C%22True%2FFalse%22%3A${trueFalse}%2C%22MCQ%22%3A${mcq}%2C%22Short%20Answer%20Type%22%3A${shortLongAnswer}%2C%22Long%20Answer%20Type%22%3A0%7D%5D%2C%22weightPerQ%22%3A%5B%7B%7D%5D%2C%22mustInclude%22%3A%5B%7B%7D%5D%2C%22settings%22%3A%7B%22provideAnsOrSpace%22%3A%22space%22%2C%22randomiseSelection%22%3Atrue%2C%22strictChapterWiseDistribution%22%3Afalse%2C%22editable%22%3Atrue%2C%22showAIBtns%22%3Afalse%2C%22hideWeightage%22%3Atrue%2C%22showStudentDetails%22%3Atrue%2C%22border%22%3Afalse%2C%22shuffleMCQOptions%22%3Afalse%2C%22useDotPatternInBlanks%22%3Atrue%2C%22showHelpBoxInFillUp%22%3Afalse%2C%22mergeMatchItems%22%3Atrue%2C%22convertQForm%22%3A%7B%22MCQ%22%3A%7B%22toFillUp%22%3A0%2C%22toTF%22%3A0%2C%22toVSA%22%3A0%7D%2C%22flipTF%22%3Afalse%7D%2C%22spaceForAns%22%3A%7B%22Very%20Short%20Answer%20Type%22%3A1%2C%22Short%20Answer%20Type%22%3A3%2C%22Long%20Answer%20Type%22%3A6%2C%22Very%20Long%20Answer%20Type%22%3A8%2C%22Diagram%2FPicture%2FMap%20Based%22%3A6%7D%2C%22qTypesAllowedInImageQ%22%3A%5B%22Short%20Answer%20Type%22%2C%22Long%20Answer%20Type%22%2C%22Very%20Long%20Answer%20Type%22%2C%22Diagram%2FPicture%2FMap%20Based%22%5D%7D%7D&files=kips-6-ch-1%2Bkips-6-ch-2%2Bkips-6-ch-3%2Bkips-6-ch-4&diff=${difficulty}`;
+
+            // Redirect to the generated link
+            window.location.href = finalURL;
+        }
+    </script>
+</head>
+<body onload="generateRandomLink()">
+    <h1>Generating Your Randomized Worksheet...</h1>
+</body>
+</html>
