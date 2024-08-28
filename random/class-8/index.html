@@ -44,7 +44,7 @@
             // Base URL
             let baseURL = "https://sourabhsuneja.github.io/question-paper/";
 
-            // Encoded JSON for questions per chapter (qpm parameter)
+            // Encoded JSON for questions paper model (qpm parameter)
             let qpm = encodeURIComponent(JSON.stringify({
                 "kips-8-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
                 "kips-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
@@ -52,8 +52,68 @@
                 "between-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false }
             }));
 
+            // Exam details object
+            let ed = {
+                schoolName: "Jamna Vidyapeeth",
+                examName: "Practice Worksheet",
+                subject: "Data Science",
+                duration: 60,
+                grade: "VIII"
+            };
+
+            // Question container object
+            let qc = {
+                headings: [""],
+                qTypes: [{
+                    "Fill up": fillUp,
+                    "True/False": trueFalse,
+                    "MCQ": mcq,
+                    "Short Answer Type": shortAns,
+                    "Long Answer Type": longAns
+                }],
+                weightPerQ: [{}],
+                mustInclude: [{}],
+                settings: {
+                    provideAnsOrSpace: "space",
+                    randomiseSelection: true,
+                    strictChapterWiseDistribution: false,
+                    editable: true,
+                    showAIBtns: false,
+                    hideWeightage: true,
+                    showStudentDetails: true,
+                    border: false,
+                    shuffleMCQOptions: false,
+                    useDotPatternInBlanks: true,
+                    showHelpBoxInFillUp: false,
+                    mergeMatchItems: true,
+                    convertQForm: {
+                        MCQ: { toFillUp: 0, toTF: 0, toVSA: 0 },
+                        flipTF: false
+                    },
+                    spaceForAns: {
+                        "Very Short Answer Type": 1,
+                        "Short Answer Type": 3,
+                        "Long Answer Type": 6,
+                        "Very Long Answer Type": 8,
+                        "Diagram/Picture/Map Based": 6
+                    },
+                    qTypesAllowedInImageQ: [
+                        "Short Answer Type", "Long Answer Type", 
+                        "Very Long Answer Type", "Diagram/Picture/Map Based"
+                    ]
+                }
+            };
+
+            // Files and chapters
+            let files = ["kips-8-ch-1", "kips-8-ch-2", "between-8-ch-1", "between-8-ch-2"];
+
+            // URL encoding
+            let encodedEd = encodeURIComponent(JSON.stringify(ed));
+            let encodedQc = encodeURIComponent(JSON.stringify(qc));
+            let encodedFiles = encodeURIComponent(files.join("+"));
+
             // Final URL construction
-            let finalURL = `${baseURL}?ed=%7B%22schoolName%22%3A%22Jamna%20Vidyapeeth%22%2C%22examName%22%3A%22Practice%20Worksheet%22%2C%22subject%22%3A%22Data%20Science%22%2C%22duration%22%3A60%2C%22grade%22%3A%22VIII%22%7D&qpm=${qpm}&qc=%7B%22headings%22%3A%5B%22%22%5D%2C%22qTypes%22%3A%5B%7B%22Fill%20up%22%3A${fillUp}%2C%22True%2FFalse%22%3A${trueFalse}%2C%22MCQ%22%3A${mcq}%2C%22Short%20Answer%20Type%22%3A${shortAns}%2C%22Long%20Answer%20Type%22%3A${longAns}%7D%5D%2C%22weightPerQ%22%3A%5B%7B%7D%5D%2C%22mustInclude%22%3A%5B%7B%7D%5D%2C%22settings%22%3A%7B%22provideAnsOrSpace%22%3A%22space%22%2C%22randomiseSelection%22%3Atrue%2C%22strictChapterWiseDistribution%22%3Afalse%2C%22editable%22%3Atrue%2C%22showAIBtns%22%3Afalse%2C%22hideWeightage%22%3Atrue%2C%22showStudentDetails%22%3Atrue%2C%22border%22%3Afalse%2C%22shuffleMCQOptions%22%3Afalse%2C%22useDotPatternInBlanks%22%3Atrue%2C%22showHelpBoxInFillUp%22%3Afalse%2C%22mergeMatchItems%22%3Atrue%2C%22convertQForm%22%3A%7B%22MCQ%22%3A%7B%22toFillUp%22%3A0%2C%22toTF%22%3A0%2C%22toVSA%22%3A0%7D%2C%22flipTF%22%3Afalse%7D%2C%22spaceForAns%22%3A%7B%22Very%20Short%20Answer%20Type%22%3A1%2C%22Short%20Answer%20Type%22%3A3%2C%22Long%20Answer%20Type%22%3A6%2C%22Very%20Long%20Answer%20Type%22%3A8%2C%22Diagram%2FPicture%2FMap%20Based%22%3A6%7D%2C%22qTypesAllowedInImageQ%22%3A%5B%22Short%20Answer%20Type%22%2C%22Long%20Answer%20Type%22%2C%22Very%20Long%20Answer%20Type%22%2C%22Diagram%2FPicture%2FMap%20Based%22%5D%7D%7D&files=kips-8-ch-1%2Bkips-8-ch-2%2Bbetween-8-ch-1%2Bbetween-8-ch-2&diff=${difficulty}`;
+            let finalURL = `${baseURL}?ed=${encodedEd}&qpm=${qpm}&qc=${encodedQc}&files=${encodedFiles}&diff=${difficulty}`;
 
             // Redirect to the generated link
             window.location.href = finalURL;
