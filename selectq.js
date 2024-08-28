@@ -26,7 +26,14 @@ const qContainers = JSON.parse(getParameterByName('qc'));
 
 
 // overall difficulty level of question paper
-const overallDifficulty = getParameterByName('diff');
+let overallDifficulty = getParameterByName('diff');
+
+// Check if the difficulty level is set to "random"
+if (overallDifficulty === "random") {
+    const difficulties = ["easy", "medium", "hard"];
+    overallDifficulty = difficulties[Math.floor(Math.random() * difficulties.length)];
+}
+
         
 // Function to fetch data from a file using AJAX and return a promise
 
