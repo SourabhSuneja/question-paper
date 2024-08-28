@@ -615,8 +615,8 @@ function isMCQConvertible(q, lookupKey) {
   // test for the absence of question mark at the end
   const test3 = !(questionText.endsWith("?"));
 
-  // test whether question starts with a wh word (who, whom, which etc) but not followed by "of" or "among"
-  let regex3 = /(what|which|where|whose|who|whom|when|why|how)(?!\s(of|among))\s/i
+  // test whether question starts with a wh word (who, whom, which etc) but not followed by "of" or "among" or "out"
+  let regex3 = /(what|which|where|whose|who|whom|when|why|how)(?!\s(of|among|out))\s/i
   const test4 = regex3.test(questionText);
 
   
