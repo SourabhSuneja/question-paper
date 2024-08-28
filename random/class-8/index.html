@@ -15,11 +15,12 @@
             let fillUp = getRandomInt(1, 3);
             let trueFalse = getRandomInt(1, 2);
             let mcq = getRandomInt(1, 3);
+            let veryShortAns = getRandomInt(0, 1);
             let shortAns = getRandomInt(3, 6);
             let longAns = 0;
 
             // Ensure total number of questions is exactly 10
-            let totalQuestions = fillUp + trueFalse + mcq + shortAns;
+            let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
 
             if (totalQuestions > 10) {
                 let excess = totalQuestions - 10;
@@ -28,7 +29,7 @@
             } 
 
             // Recalculate total questions after adjustments
-            totalQuestions = fillUp + trueFalse + mcq + shortAns;
+            totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
 
             // Check for shortfall and adjust the "Long Answer Type" in qTypes object to compensate
             if (totalQuestions < 10) {
@@ -46,10 +47,10 @@
 
             // Encoded JSON for questions paper model (qpm parameter)
             let qpm = encodeURIComponent(JSON.stringify({
-                "kips-8-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
-                "kips-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
-                "between-8-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
-                "between-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false }
+                "kips-8-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
+                "kips-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
+                "between-8-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
+                "between-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false }
             }));
 
             // Exam details object
@@ -68,6 +69,7 @@
                     "MCQ": mcq,
                     "Fill up": fillUp,
                     "True/False": trueFalse,
+                    "Very Short Answer Type": veryShortAns,
                     "Short Answer Type": shortAns,
                     "Long Answer Type": longAns
                 }],
@@ -87,8 +89,8 @@
                     showHelpBoxInFillUp: false,
                     mergeMatchItems: true,
                     convertQForm: {
-                        MCQ: { toFillUp: 0, toTF: 0, toVSA: 0 },
-                        flipTF: false
+                        MCQ: { toFillUp: 0, toTF: 1, toVSA: 2 },
+                        flipTF: true
                     },
                     spaceForAns: {
                         "Very Short Answer Type": 1,
