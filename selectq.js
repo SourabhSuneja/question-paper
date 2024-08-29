@@ -291,6 +291,9 @@ function filterOnDifficultyLevel(q, overallDifficulty, numQuesReq, uniqueCardInd
   else if(overallDifficulty == "medium") {
     uniqueCardIndices = pickItemsAlternately(uniqueCardIndices);
   }
+  else if(overallDifficulty == "purelyRandom") {
+    return q;
+  }
   
   // loop through all card indices and remove items progressively
   uniqueCardIndices.forEach(
