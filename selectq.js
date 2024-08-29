@@ -5,6 +5,7 @@ let questions;
 let mergedQuestions = {};
 let toBeInserted;
 let mustIncludeIndices = [];
+let overallDifficulty;
 
 // question bank root URL
 const qbLink = "https://sourabhsuneja.github.io/question-paper/question-bank/";
@@ -26,7 +27,7 @@ const qContainers = JSON.parse(getParameterByName('qc'));
 
 
 // overall difficulty level of question paper
-let overallDifficulty = getParameterByName('diff');
+overallDifficulty = getParameterByName('diff');
 
 // Check if the difficulty level is set to "random"
 if (overallDifficulty === "random") {
@@ -281,18 +282,23 @@ function pickItemsAlternately(arr) {
 // function to filter questions based on supplied overall difficulty level for question paper
 function filterOnDifficultyLevel(q, overallDifficulty, numQuesReq, uniqueCardIndices, cardIndexMap) {
 
+  // assign the value of global overallDifficulty variable temporarily to a local variable level
+  let level = overallDifficulty;
+
+  // if overallDifficulty param is "purelyRandom", randomly set level to "easy", "medium" or "hard", so that every time we can have a different difficulty level for a given type of questions
+  if(overallDifficulty == "purelyRandom") {
+    level = ["easy", "medium", "hard"][Math.floor(Math.random() * 3)];
+  }
+
   // sort card values based on difficulty level demanded
-  if(overallDifficulty == "easy") {
+  if(level == "easy") {
     uniqueCardIndices.sort((a, b) => b - a);
   }
-  else if(overallDifficulty == "hard") {
+  else if(level == "hard") {
     uniqueCardIndices.sort((a, b) => a - b);
   }
-  else if(overallDifficulty == "medium") {
+  else if(level == "medium") {
     uniqueCardIndices = pickItemsAlternately(uniqueCardIndices);
-  }
-  else if(overallDifficulty == "purelyRandom") {
-    return q;
   }
   
   // loop through all card indices and remove items progressively
