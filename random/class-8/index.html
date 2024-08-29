@@ -6,17 +6,16 @@
     <meta name="description" content="Get a random DS worksheet for class 8 instantly with our simple generator for varied practice.">
     <title>Class 8 Data Science Worksheet</title>
     <script>
-
-// Function to get URL parameters
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, ' '));
-}
+        // Function to get URL parameters
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
 
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -38,7 +37,7 @@ function getParameterByName(name, url) {
                 let excess = totalQuestions - 10;
                 // Reduce excess from shortAns
                 shortAns = Math.max(shortAns - excess, 0);
-            } 
+            }
 
             // Recalculate total questions after adjustments
             totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
@@ -66,7 +65,7 @@ function getParameterByName(name, url) {
             // Exam details object
             let ed = {
                 schoolName: "Jamna Vidyapeeth",
-                examName: "Practice Worksheet" + ((getParameterByName("solved") === "y")? " (Solved)" : ""),
+                examName: "Practice Worksheet" + ((getParameterByName("solved") === "y") ? " (Solved)" : ""),
                 subject: "Data Science",
                 duration: 60,
                 grade: "VIII"
@@ -86,7 +85,7 @@ function getParameterByName(name, url) {
                 weightPerQ: [{}],
                 mustInclude: [{}],
                 settings: {
-                    provideAnsOrSpace: (getParameterByName("solved") === "y")? "ans" : "space",
+                    provideAnsOrSpace: (getParameterByName("solved") === "y") ? "ans" : "space",
                     randomiseSelection: true,
                     strictChapterWiseDistribution: false,
                     editable: true,
@@ -110,7 +109,7 @@ function getParameterByName(name, url) {
                         "Diagram/Picture/Map Based": 6
                     },
                     qTypesAllowedInImageQ: [
-                        "Short Answer Type", "Long Answer Type", 
+                        "Short Answer Type", "Long Answer Type",
                         "Very Long Answer Type", "Diagram/Picture/Map Based"
                     ]
                 }
