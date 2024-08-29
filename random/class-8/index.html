@@ -86,7 +86,7 @@ function getParameterByName(name, url) {
                 weightPerQ: [{}],
                 mustInclude: [{}],
                 settings: {
-                    provideAnsOrSpace: "space",
+                    provideAnsOrSpace: (getParameterByName("solved") === "y")? "ans" : "space",
                     randomiseSelection: true,
                     strictChapterWiseDistribution: false,
                     editable: true,
