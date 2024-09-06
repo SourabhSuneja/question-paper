@@ -1064,7 +1064,7 @@ function getAnsSpaceNode(qType, spaceForAns) {
     for(let j = 0; j < linesNeeded; j++) {
         const child = document.createElement('div');
         child.style.width = "100%";
-        child.style.height = "0.8cm";
+        child.style.height = "0.84cm";
         if(qType !== "Diagram/Picture/Map Based") {
             child.style.borderTop = "2px dotted black";
         }
