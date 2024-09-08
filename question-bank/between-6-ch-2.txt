@@ -1,0 +1,1 @@
+Match the following:JSONParams:{"qType":"Match items","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25,"matchCols":{"Column A":["Hotstar","JioSaavn","Microsoft Edge","Myntra","Byju's"],"Column B":["Internet TV app","Internet radio app","Browser","E-commerce app","E-learning app"]},"colHeadings":["Column A","Column B"]}
