@@ -19,9 +19,10 @@
 
     <style>
         html, body {
-    -webkit-text-size-adjust: 100%; /* Prevent text scaling in iOS */
-    -ms-text-size-adjust: 100%;     /* Prevent text scaling in Windows Phone */
-    text-size-adjust: 100%;         /* Standard property */
+    -webkit-text-size-adjust: none; /* Specifically targets WebKit browsers like Chrome */
+    -moz-text-size-adjust: none;    /* Targets Firefox */
+    -ms-text-size-adjust: none;     /* Targets Internet Explorer and Edge */
+    text-size-adjust: none;         /* General property for all browsers */
         }
         @media print {
            body {
