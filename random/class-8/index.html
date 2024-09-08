@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Get a random DS worksheet for class 8 instantly with our simple generator for varied practice.">
     <title>Class 8 Data Science Worksheet</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f7fa;
+            margin: 0;
+        }
+
+        /* Heading styling */
+        h1 {
+            font-size: 2em;
+            color: #3b5998;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #e9eff7;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+
+        /* Pulse animation */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
     <script>
         // Function to get URL parameters
         function getParameterByName(name, url) {
@@ -35,7 +76,6 @@
 
             if (totalQuestions > 10) {
                 let excess = totalQuestions - 10;
-                // Reduce excess from shortAns
                 shortAns = Math.max(shortAns - excess, 0);
             }
 
@@ -45,11 +85,11 @@
             // Check for shortfall and adjust the "Long Answer Type" in qTypes object to compensate
             if (totalQuestions < 10) {
                 let shortfall = 10 - totalQuestions;
-                longAns += shortfall; // Adjust the shortfall
+                longAns += shortfall; 
             }
 
             // Randomize difficulty level
-            difficulty = "purelyRandom";
+            let difficulty = "purelyRandom";
 
             // Base URL
             let baseURL = "https://sourabhsuneja.github.io/question-paper/";
@@ -129,9 +169,31 @@
             // Redirect to the generated link
             window.location.href = finalURL;
         }
+
+        // Randomize H1 heading
+        function randomizeHeading() {
+            const headings = [
+                "Crafting your unique worksheet with a touch of AI magic...",
+                "AI is busy customizing a fresh worksheet just for you...",
+                "Letting AI work its magic to generate your personalized worksheet...",
+                "Your custom worksheet is being spun up by AI, just for you...",
+                "AI is hard at work, generating a one-of-a-kind worksheet for you...",
+                "Sit tight! Your AI-powered worksheet is on the way...",
+                "Bringing AI smarts to life – your worksheet is coming right up!"
+            ];
+
+            const randomIndex = Math.floor(Math.random() * headings.length);
+            document.getElementById("heading").textContent = headings[randomIndex];
+        }
+
+        // Call both randomizeHeading and delay the link generation by 1 second
+        function init() {
+            randomizeHeading();
+            setTimeout(generateRandomLink, 3000); // 3 second delay
+        }
     </script>
 </head>
-<body onload="generateRandomLink()">
-    <h1>Generating Your Randomized Worksheet with AI...</h1>
+<body onload="init()">
+    <h1 id="heading"></h1>
 </body>
 </html>
