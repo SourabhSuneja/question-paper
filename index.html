@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200"> <!-- Fixed width like desktop -->
     <title>QuestionCrafter by Sourabh Sir</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,11 @@
      <script type="module" src="ai-reword.js"></script>
 
     <style>
+        html, body {
+    -webkit-text-size-adjust: 100%; /* Prevent text scaling in iOS */
+    -ms-text-size-adjust: 100%;     /* Prevent text scaling in Windows Phone */
+    text-size-adjust: 100%;         /* Standard property */
+        }
         @media print {
            body {
             margin: 0;
