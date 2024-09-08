@@ -1,0 +1,1 @@
+Match the following Excel formulas with their correct outputs:JSONParams:{"qType":"Match items","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25,"matchCols":{"Formula":["SUM(12,4)","MAX(5,2,9)","MIN(0,-3,5)","LEN(\"Sourabh\")","UPPER(\"cream\")"],"Output":["16","9","-3","7","CREAM"]},"colHeadings":["Formula","Output"]}
