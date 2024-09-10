@@ -74,12 +74,12 @@
             let fillUp = getRandomInt(1, 2);
             let trueFalse = getRandomInt(1, 2);
             let mcq = getRandomInt(1, 3);
-            let veryShortAns = getRandomInt(0, 1);
+            let veryShortAns = 0;
             let shortAns = getRandomInt(3, 6);
-            let longAns = 0;
+            let longAns = getRandomInt(0, 1);
 
             // Ensure total number of questions is exactly 10
-            let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
+            let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns + longAns;
 
             if (totalQuestions > 10) {
                 let excess = totalQuestions - 10;
@@ -87,12 +87,12 @@
             }
 
             // Recalculate total questions after adjustments
-            totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
+            totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns + longAns;
 
-            // Check for shortfall and adjust the "Long Answer Type" in qTypes object to compensate
+            // Check for shortfall and adjust the "Short Answer Type" in qTypes object to compensate
             if (totalQuestions < 10) {
                 let shortfall = 10 - totalQuestions;
-                longAns += shortfall; 
+                shortAns += shortfall; 
             }
 
             // Randomize difficulty level
