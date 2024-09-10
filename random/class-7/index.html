@@ -126,9 +126,9 @@ let qpm = encodeURIComponent(JSON.stringify(qpmObj));
             let ed = {
                 schoolName: "Jamna Vidyapeeth",
                 examName: "Practice Worksheet" + ((getParameterByName("solved") === "y") ? " (Solved)" : ""),
-                subject: "Data Science",
+                subject: "Computer",
                 duration: 60,
-                grade: "VIII"
+                grade: "VII"
             };
 
             // Question container object
@@ -158,8 +158,8 @@ let qpm = encodeURIComponent(JSON.stringify(qpmObj));
                     showHelpBoxInFillUp: false,
                     mergeMatchItems: true,
                     convertQForm: {
-                        MCQ: { toFillUp: 2, toTF: 0, toVSA: 2 },
-                        flipTF: true
+                        MCQ: { toFillUp: 0, toTF: 0, toVSA: 0 },
+                        flipTF: false
                     },
                     spaceForAns: {
                         "Very Short Answer Type": 1,
