@@ -79,7 +79,7 @@
             let longAns = getRandomInt(0, 1);
 
             // Ensure total number of questions is exactly 10
-            let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
+            let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns + longAns;
 
             if (totalQuestions > 10) {
                 let excess = totalQuestions - 10;
@@ -87,7 +87,7 @@
             }
 
             // Recalculate total questions after adjustments
-            totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
+            totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns + longAns;
 
             // Check for shortfall and adjust the "Short Answer Type" in qTypes object to compensate
             if (totalQuestions < 10) {
