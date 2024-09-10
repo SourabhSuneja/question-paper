@@ -5,65 +5,246 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Get a random computer worksheet for class 6 instantly with our simple generator for varied practice.">
     <title>Class 6 Computer Worksheet</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f7fa;
+            margin: 0;
+        }
+
+        /* Heading styling */
+        h1 {
+            font-size: 2em;
+            color: #3b5998;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #e9eff7;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+
+        /* Pulse animation */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
     <script>
+         // Base URL
+         const baseURL = "https://sourabhsuneja.github.io/question-paper/";
+
+         // Files and chapters
+         const files = ["kips-6-ch-1", "kips-6-ch-2", "kips-6-ch-3", "kips-6-ch-4"];
+        
+
+        // Function to get URL parameters
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
         function generateRandomLink() {
             // Randomize question counts
-            let fillUp = getRandomInt(1, 3);
+            let fillUp = getRandomInt(1, 2);
             let trueFalse = getRandomInt(1, 2);
             let mcq = getRandomInt(1, 3);
-            let shortLongAnswer = getRandomInt(3, 6);
+            let veryShortAns = getRandomInt(0, 1);
+            let shortAns = getRandomInt(3, 6);
+            let longAns = 0;
 
             // Ensure total number of questions is exactly 10
-            let totalQuestions = fillUp + trueFalse + mcq + shortLongAnswer;
+            let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
 
             if (totalQuestions > 10) {
                 let excess = totalQuestions - 10;
-                // Reduce excess from shortLongAnswer first
-                shortLongAnswer = Math.max(shortLongAnswer - excess, 0);
-                excess = totalQuestions - 10;
-                if (excess > 0) {
-                    trueFalse = Math.max(trueFalse - excess, 0);
-                }
-            } 
+                shortAns = Math.max(shortAns - excess, 0);
+            }
 
             // Recalculate total questions after adjustments
-            totalQuestions = fillUp + trueFalse + mcq + shortLongAnswer;
+            totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
 
-            // Check for shortfall and adjust the "Short Answer Type" in qTypes object
+            // Check for shortfall and adjust the "Long Answer Type" in qTypes object to compensate
             if (totalQuestions < 10) {
                 let shortfall = 10 - totalQuestions;
-                shortLongAnswer += shortfall; // Adjust the shortfall
+                longAns += shortfall; 
             }
 
             // Randomize difficulty level
-            let difficultyLevels = ["easy", "medium", "hard"];
-            let difficulty = difficultyLevels[getRandomInt(0, 2)];
-            difficulty = "random";
+            let difficulty = "purelyRandom";
 
-            // Base URL
-            let baseURL = "https://sourabhsuneja.github.io/question-paper/";
 
-            // Encoded JSON for questions per chapter (qpm parameter)
-            let qpm = encodeURIComponent(JSON.stringify({
-                "kips-6-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false },
-                "kips-6-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false },
-                "kips-6-ch-3": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false },
-                "kips-6-ch-4": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Short Answer Type": shortLongAnswer, "Long Answer Type": 0, "Match items": 0, "image": false, "audio": false, "video": false }
-            }));
+            // Question types
+const questionTypes = {
+    "Fill up": fillUp,
+    "True/False": trueFalse,
+    "MCQ": mcq,
+    "Very Short Answer Type": veryShortAns,
+    "Short Answer Type": shortAns,
+    "Long Answer Type": longAns,
+    "Match items": 0,
+    "image": false,
+    "audio": false,
+    "video": false
+};
+
+// Generate the qpm object by iterating over the files
+let qpmObj = {};
+files.forEach(file => {
+    qpmObj[file] = { ...questionTypes };
+});
+
+// Encode the generated qpm object
+let qpm = encodeURIComponent(JSON.stringify(qpmObj));
+
+            // Exam details object
+            let ed = {
+                schoolName: "Jamna Vidyapeeth",
+                examName: "Practice Worksheet" + ((getParameterByName("solved") === "y") ? " (Solved)" : ""),
+                subject: "Data Science",
+                duration: 60,
+                grade: "VIII"
+            };
+
+            // Question container object
+            let qc = {
+                headings: [""],
+                qTypes: [{
+                    "MCQ": mcq,
+                    "Fill up": fillUp,
+                    "True/False": trueFalse,
+                    "Very Short Answer Type": veryShortAns,
+                    "Short Answer Type": shortAns,
+                    "Long Answer Type": longAns
+                }],
+                weightPerQ: [{}],
+                mustInclude: [{}],
+                settings: {
+                    provideAnsOrSpace: (getParameterByName("solved") === "y") ? "ans" : "space",
+                    randomiseSelection: true,
+                    strictChapterWiseDistribution: false,
+                    editable: false,
+                    showAIBtns: false,
+                    hideWeightage: true,
+                    showStudentDetails: true,
+                    border: false,
+                    shuffleMCQOptions: false,
+                    useDotPatternInBlanks: true,
+                    showHelpBoxInFillUp: false,
+                    mergeMatchItems: true,
+                    convertQForm: {
+                        MCQ: { toFillUp: 2, toTF: 0, toVSA: 2 },
+                        flipTF: true
+                    },
+                    spaceForAns: {
+                        "Very Short Answer Type": 1,
+                        "Short Answer Type": 3,
+                        "Long Answer Type": 6,
+                        "Very Long Answer Type": 8,
+                        "Diagram/Picture/Map Based": 6
+                    },
+                    qTypesAllowedInImageQ: [
+                        "Short Answer Type", "Long Answer Type",
+                        "Very Long Answer Type", "Diagram/Picture/Map Based"
+                    ]
+                }
+            };
+
+            // URL encoding
+            let encodedEd = encodeURIComponent(JSON.stringify(ed));
+            let encodedQc = encodeURIComponent(JSON.stringify(qc));
+            let encodedFiles = encodeURIComponent(files.join("+"));
 
             // Final URL construction
-            let finalURL = `${baseURL}?ed=%7B%22schoolName%22%3A%22Jamna%20Vidyapeeth%22%2C%22examName%22%3A%22Practice%20Worksheet%22%2C%22subject%22%3A%22Computer%22%2C%22duration%22%3A60%2C%22grade%22%3A%22VI%22%7D&qpm=${qpm}&qc=%7B%22headings%22%3A%5B%22%22%5D%2C%22qTypes%22%3A%5B%7B%22Fill%20up%22%3A${fillUp}%2C%22True%2FFalse%22%3A${trueFalse}%2C%22MCQ%22%3A${mcq}%2C%22Short%20Answer%20Type%22%3A${shortLongAnswer}%2C%22Long%20Answer%20Type%22%3A0%7D%5D%2C%22weightPerQ%22%3A%5B%7B%7D%5D%2C%22mustInclude%22%3A%5B%7B%7D%5D%2C%22settings%22%3A%7B%22provideAnsOrSpace%22%3A%22space%22%2C%22randomiseSelection%22%3Atrue%2C%22strictChapterWiseDistribution%22%3Afalse%2C%22editable%22%3Atrue%2C%22showAIBtns%22%3Afalse%2C%22hideWeightage%22%3Atrue%2C%22showStudentDetails%22%3Atrue%2C%22border%22%3Afalse%2C%22shuffleMCQOptions%22%3Afalse%2C%22useDotPatternInBlanks%22%3Atrue%2C%22showHelpBoxInFillUp%22%3Afalse%2C%22mergeMatchItems%22%3Atrue%2C%22convertQForm%22%3A%7B%22MCQ%22%3A%7B%22toFillUp%22%3A0%2C%22toTF%22%3A0%2C%22toVSA%22%3A0%7D%2C%22flipTF%22%3Afalse%7D%2C%22spaceForAns%22%3A%7B%22Very%20Short%20Answer%20Type%22%3A1%2C%22Short%20Answer%20Type%22%3A3%2C%22Long%20Answer%20Type%22%3A6%2C%22Very%20Long%20Answer%20Type%22%3A8%2C%22Diagram%2FPicture%2FMap%20Based%22%3A6%7D%2C%22qTypesAllowedInImageQ%22%3A%5B%22Short%20Answer%20Type%22%2C%22Long%20Answer%20Type%22%2C%22Very%20Long%20Answer%20Type%22%2C%22Diagram%2FPicture%2FMap%20Based%22%5D%7D%7D&files=kips-6-ch-1%2Bkips-6-ch-2%2Bkips-6-ch-3%2Bkips-6-ch-4&diff=${difficulty}`;
+            let finalURL = `${baseURL}?ed=${encodedEd}&qpm=${qpm}&qc=${encodedQc}&files=${encodedFiles}&diff=${difficulty}`;
 
             // Redirect to the generated link
             window.location.href = finalURL;
         }
+
+        // Randomize H1 heading
+        function randomizeHeading() {
+            const headings = [
+    "Crafting your unique worksheet with a touch of AI magic...",
+    "AI is busy customizing a fresh worksheet just for you...",
+    "Letting AI work its magic to generate your personalized worksheet...",
+    "Your custom worksheet is being spun up by AI, just for you...",
+    "AI is hard at work, generating a one-of-a-kind worksheet for you...",
+    "Sit tight! Your AI-powered worksheet is on the way...",
+    "Bringing AI smarts to life – your worksheet is coming right up!",
+    "AI is weaving its brilliance into your new worksheet...",
+    "Your personalized worksheet is being crafted with AI precision...",
+    "Watch as AI designs your perfect worksheet in real-time...",
+    "AI is carefully tailoring a worksheet just for you...",
+    "Creating a custom worksheet with a sprinkle of AI expertise...",
+    "Your worksheet is being meticulously prepared by AI...",
+    "AI is on it – your specially designed worksheet is almost ready...",
+    "Exciting times ahead! AI is finalizing your custom worksheet...",
+    "Your unique worksheet is being shaped with AI ingenuity...",
+    "AI is making sure your worksheet is nothing short of perfect..."
+];
+
+            const randomIndex = Math.floor(Math.random() * headings.length);
+            document.getElementById("heading").textContent = headings[randomIndex];
+        }
+
+// Function to preload chapter files for quick loading later on (when the worksheet is shown)
+function preloadFiles() {
+    files.forEach(file => {
+        let url = baseURL + "question-bank/" + file + ".txt"; 
+        fetch(url, { method: 'GET', cache: 'force-cache' })
+            .then(response => {
+                if (response.ok) {
+                    
+                } else {
+                    console.error(`Failed to preload ${file}`);
+                }
+            })
+            .catch(error => console.error(`Error preloading ${file}: `, error));
+    });
+}
+
+        // Call both randomizeHeading and delay the link generation by 3 seconds
+        function init() {
+            randomizeHeading();
+            preloadFiles(); setTimeout(generateRandomLink, 3000); // 3 second delay
+        }
+
+        // Add event listener for the pageshow event so that init() is executed again when the page is jumped back in (after pressing the back button)
+    window.addEventListener('pageshow', function (event) {
+        if (event.persisted) {
+            // If the page was loaded from cache
+            init();
+        }
+    });
     </script>
 </head>
-<body onload="generateRandomLink()">
-    <h1>Generating Your Randomized Worksheet with AI...</h1>
+<body onload="init()">
+    <h1 id="heading"></h1>
 </body>
 </html>
