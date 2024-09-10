@@ -47,6 +47,13 @@
         }
     </style>
     <script>
+         // Base URL
+         const baseURL = "https://sourabhsuneja.github.io/question-paper/";
+
+         // Files and chapters
+         const files = ["kips-8-ch-1", "kips-8-ch-2", "between-8-ch-1", "between-8-ch-2"];
+        
+
         // Function to get URL parameters
         function getParameterByName(name, url) {
             if (!url) url = window.location.href;
@@ -91,8 +98,6 @@
             // Randomize difficulty level
             let difficulty = "purelyRandom";
 
-            // Base URL
-            let baseURL = "https://sourabhsuneja.github.io/question-paper/";
 
             // Encoded JSON for questions paper model (qpm parameter)
             let qpm = encodeURIComponent(JSON.stringify({
@@ -155,9 +160,6 @@
                 }
             };
 
-            // Files and chapters
-            let files = ["kips-8-ch-1", "kips-8-ch-2", "between-8-ch-1", "between-8-ch-2"];
-
             // URL encoding
             let encodedEd = encodeURIComponent(JSON.stringify(ed));
             let encodedQc = encodeURIComponent(JSON.stringify(qc));
@@ -196,10 +198,26 @@
             document.getElementById("heading").textContent = headings[randomIndex];
         }
 
-        // Call both randomizeHeading and delay the link generation by 1 second
+// Function to preload chapter files for quick loading later on (when the worksheet is shown)
+function preloadFiles() {
+    files.forEach(file => {
+        let url = baseURL + "question-bank/" + file + ".txt"; 
+        fetch(url, { method: 'GET', cache: 'force-cache' })
+            .then(response => {
+                if (response.ok) {
+                    
+                } else {
+                    console.error(`Failed to preload ${file}`);
+                }
+            })
+            .catch(error => console.error(`Error preloading ${file}: `, error));
+    });
+}
+
+        // Call both randomizeHeading and delay the link generation by 3 seconds
         function init() {
             randomizeHeading();
-            setTimeout(generateRandomLink, 3000); // 3 second delay
+            preloadFiles(); setTimeout(generateRandomLink, 3000); // 3 second delay
         }
 
         // Add event listener for the pageshow event so that init() is executed again when the page is jumped back in (after pressing the back button)
