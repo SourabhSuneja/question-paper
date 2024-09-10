@@ -99,13 +99,28 @@
             let difficulty = "purelyRandom";
 
 
-            // Encoded JSON for questions paper model (qpm parameter)
-            let qpm = encodeURIComponent(JSON.stringify({
-                "kips-8-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
-                "kips-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
-                "between-8-ch-1": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false },
-                "between-8-ch-2": { "Fill up": fillUp, "True/False": trueFalse, "MCQ": mcq, "Very Short Answer Type": veryShortAns, "Short Answer Type": shortAns, "Long Answer Type": longAns, "Match items": 0, "image": false, "audio": false, "video": false }
-            }));
+            // Question types
+const questionTypes = {
+    "Fill up": fillUp,
+    "True/False": trueFalse,
+    "MCQ": mcq,
+    "Very Short Answer Type": veryShortAns,
+    "Short Answer Type": shortAns,
+    "Long Answer Type": longAns,
+    "Match items": 0,
+    "image": false,
+    "audio": false,
+    "video": false
+};
+
+// Generate the qpm object by iterating over the files
+let qpmObj = {};
+files.forEach(file => {
+    qpmObj[file] = { ...questionTypes };
+});
+
+// Encode the generated qpm object
+let qpm = encodeURIComponent(JSON.stringify(qpmObj));
 
             // Exam details object
             let ed = {
