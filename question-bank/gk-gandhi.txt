@@ -1,0 +1,39 @@
+What was Mahatma Gandhi’s full name? (Options: Option A} Mohandas Karamchand Gandhi Option B} Jawaharlal Nehru Option C} Bhagat Singh  Correct: Mohandas Karamchand Gandhi)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Where was Mahatma Gandhi born? (Options: Option A} Delhi Option B} Porbandar Option C} Mumbai  Correct: Porbandar)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which title is Mahatma Gandhi known by? (Options: Option A} Father of the Nation Option B} King of India Option C} Teacher of India  Correct: Father of the Nation)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which movement did Gandhi lead to make India free? (Options: Option A} Quit India Movement Option B} Green Movement Option C} Freedom Movement  Correct: Quit India Movement)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Mahatma Gandhi believed in solving problems through? (Options: Option A} Violence Option B} Peace and non-violence Option C} Anger  Correct: Peace and non-violence)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What is the name of the day celebrated on Gandhi’s birthday? (Options: Option A} Gandhi Jayanti Option B} Independence Day Option C} Republic Day  Correct: Gandhi Jayanti)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+When is Gandhi Jayanti celebrated? (Options: Option A} 15th August Option B} 2nd October Option C} 26th January  Correct: 2nd October)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What did Mahatma Gandhi wear most of the time? (Options: Option A} Suits Option B} Traditional Indian clothes Option C} Khadi clothes  Correct: Khadi clothes)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What is the name of Gandhi’s autobiography? (Options: Option A} My Experiments with Truth Option B} India’s Freedom Option C} Gandhi’s Journey  Correct: My Experiments with Truth)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which tool did Mahatma Gandhi use to make clothes? (Options: Option A} Sewing machine Option B} Spinning wheel Option C} Typewriter  Correct: Spinning wheel)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Gandhi fought against which kind of rule in India? (Options: Option A} British Rule Option B} French Rule Option C} American Rule  Correct: British Rule)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What was the name of Gandhi’s wife? (Options: Option A} Kasturba Gandhi Option B} Indira Gandhi Option C} Sarojini Naidu  Correct: Kasturba Gandhi)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Gandhi encouraged Indians to make their own what? (Options: Option A} Food Option B} Clothes Option C} Books  Correct: Clothes)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Mahatma Gandhi walked a long way to protest against the tax on what? (Options: Option A} Sugar Option B} Salt Option C} Water  Correct: Salt)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Where did Mahatma Gandhi study law? (Options: Option A} London Option B} Mumbai Option C} Kolkata  Correct: London)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What did Gandhi call his way of peaceful protest? (Options: Option A} Satyagraha Option B} War Option C} Battle  Correct: Satyagraha)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What was Gandhi’s favorite activity? (Options: Option A} Reading Option B} Playing cricket Option C} Spinning cloth on the charkha  Correct: Spinning cloth on the charkha)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What did Mahatma Gandhi say is stronger than hate? (Options: Option A} Fear Option B} Love Option C} Anger  Correct: Love)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Mahatma Gandhi went to jail for fighting for? (Options: Option A} His house Option B} India’s freedom Option C} Money  Correct: India’s freedom)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What did Gandhi teach people to always speak? (Options: Option A} Truth Option B} Lies Option C} Gossip  Correct: Truth)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
