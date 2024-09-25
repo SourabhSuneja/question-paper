@@ -46,4 +46,4 @@ What did Gandhi promote as a symbol of Indian self-reliance? (Options: Option A}
 
 Where did Mahatma Gandhi first practice civil disobedience? (Options: Option A} India Option B} South Africa Option C} England Option D} America  Correct: South Africa)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}  
 
-Who gave the title ‘Mahatma’ to Gandhi? (Options: Option A} Jawaharlal Nehru Option B} Rabindranath Tagore Option C} Subhas Chandra Bose Option D} Sardar Patel  Correct: Rabindranath Tagore)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who gave the title ‘Mahatma’ to Gandhi? (Options: Option A} Jawaharlal Nehru Option B} Rabindranath Tagore Option C} Subhash Chandra Bose Option D} Sardar Patel  Correct: Rabindranath Tagore)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
