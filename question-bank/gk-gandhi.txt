@@ -37,3 +37,13 @@ What did Mahatma Gandhi say is stronger than hate? (Options: Option A} Fear Opti
 Mahatma Gandhi went to jail for fighting for? (Options: Option A} His house Option B} India’s freedom Option C} Money  Correct: India’s freedom)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 What did Gandhi teach people to always speak? (Options: Option A} Truth Option B} Lies Option C} Gossip  Correct: Truth)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which method did Mahatma Gandhi use to fight against British rule? (Options: Option A} Non-cooperation Option B} Boycotting goods Option C} Civil disobedience Option D} All of the above  Correct: All of the above)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+What did Mahatma Gandhi do during the Salt March? (Options: Option A} Protested against the British salt tax Option B} Collected salt from the sea Option C} Encouraged people to make their own salt Option D} All of the above  Correct: All of the above)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}  
+
+What did Gandhi promote as a symbol of Indian self-reliance? (Options: Option A} The spinning wheel Option B} The charkha Option C} Khadi clothes Option D} All of the above  Correct: All of the above)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}  
+
+Where did Mahatma Gandhi first practice civil disobedience? (Options: Option A} India Option B} South Africa Option C} England Option D} America  Correct: South Africa)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}  
+
+Who gave the title ‘Mahatma’ to Gandhi? (Options: Option A} Jawaharlal Nehru Option B} Rabindranath Tagore Option C} Subhas Chandra Bose Option D} Sardar Patel  Correct: Rabindranath Tagore)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
