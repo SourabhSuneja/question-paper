@@ -232,7 +232,7 @@ function preloadFiles() {
         // Call both randomizeHeading and delay the link generation by 3 seconds
         function init() {
             randomizeHeading();
-            preloadFiles(); setTimeout(generateRandomLink, 3000); // 3 second delay
+            preloadFiles(); setTimeout(generateRandomLink, 2000); // 2 second delay
         }
 
         // Add event listener for the pageshow event so that init() is executed again when the page is jumped back in (after pressing the back button)
