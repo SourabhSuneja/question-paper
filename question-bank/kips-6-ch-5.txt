@@ -1,0 +1,5 @@
+By default, a workbook contains __________ worksheet.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Single","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+A workbook is like a notebook, which consists of a number of pages called ___________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Worksheets","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+A worksheet becomes active by clicking on the _______ tab.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Sheet","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The Name box is present above the ___________ headings.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Column","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+A _______ is a group of contiguous cells.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Range","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
