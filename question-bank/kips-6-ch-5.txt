@@ -3,3 +3,8 @@ A workbook is like a notebook, which consists of a number of pages called ______
 A worksheet becomes active by clicking on the _______ tab.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Sheet","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 The Name box is present above the ___________ headings.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Column","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 A _______ is a group of contiguous cells.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Range","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Excel is the most popular program for documentation.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+You can perform calculations in Excel using built-in functions.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Row headings are denoted by letters.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The Status bar provides information about the current selection.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The SUM() function is a built-in function in Excel.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
