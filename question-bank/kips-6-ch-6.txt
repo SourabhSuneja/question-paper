@@ -3,3 +3,8 @@ A ___________ is a temporary storage area that stores the data that you cut or c
 When you type in the new data in the cell, the two buttons, Cancel and Enter present on the __________ bar, become active.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Formula","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 To copy data, the _________ key combination is used.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Ctrl+C","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 ___________ feature identifies the pattern in data used in a worksheet and fills the remaining series accordingly.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Flash Fill","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+Copying refers to placing data from one place to another.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+Ctrl+A key combination is used to select a row.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+Copy, Cut, and Paste buttons are present in the Font group.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+The shortcut key for Flash Fill is Shift + E.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+To clear the selection, press the Esc key.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
