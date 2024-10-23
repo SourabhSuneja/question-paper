@@ -1,0 +1,1 @@
+Explain cohort analysis.JSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"Cohort analysis is a way to study how different groups of people behave over time. A \"cohort\" is just a group of people who share something in common, like joining a school in the same year.","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
