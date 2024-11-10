@@ -170,7 +170,7 @@ let qpm = encodeURIComponent(JSON.stringify(qpmObj));
                     },
                     qTypesAllowedInImageQ: [
                         "Short Answer Type", "Long Answer Type",
-                        "Very Long Answer Type", "Diagram/Picture/Map Based"
+                        "Very Long Answer Type", "Diagram/Picture/Map Based", "Fill up"
                     ]
                 }
             };
@@ -229,7 +229,7 @@ function preloadFiles() {
     });
 }
 
-        // Call both randomizeHeading and delay the link generation by 3 seconds
+        // Call both randomizeHeading and delay the link generation by 2 seconds
         function init() {
             randomizeHeading();
             preloadFiles(); setTimeout(generateRandomLink, 2000); // 2 second delay
