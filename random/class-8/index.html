@@ -71,12 +71,12 @@
 
         function generateRandomLink() {
             // Randomize question counts
-            let fillUp = getRandomInt(1, 1);
+            let fillUp = getRandomInt(0, 1);
             let trueFalse = getRandomInt(1, 2);
             let mcq = getRandomInt(2, 3);
             let veryShortAns = getRandomInt(1, 2);
             let shortAns = getRandomInt(3, 4);
-            let longAns = 0;
+            let longAns = 1;
 
             // Ensure total number of questions is exactly 10
             let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns;
