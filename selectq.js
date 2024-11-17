@@ -958,6 +958,17 @@ function consolidateMustIncludeIndices() {
 }
 // function ends
 
+// adjust viewport if the page is being viewed within the app
+if (getParameterByName('app') === '1') {
+    // Create a new meta viewport tag
+    const metaViewport = document.createElement('meta');
+    metaViewport.name = 'viewport';
+    metaViewport.content = 'width=1000px';
+    
+    // Append the meta tag to the head
+    document.head.appendChild(metaViewport);
+}
+
 // call start function to begin the entire question fetching and selection process
 window.onload = function() {
   start(getParameterByName('files'));
