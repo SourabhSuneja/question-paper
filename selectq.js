@@ -963,7 +963,7 @@ if (getParameterByName('app') === '1') {
     // Create a new meta viewport tag
     const metaViewport = document.createElement('meta');
     metaViewport.name = 'viewport';
-    metaViewport.content = 'width=1000px';
+    metaViewport.content = 'width=1366px';
     
     // Append the meta tag to the head
     document.head.appendChild(metaViewport);
