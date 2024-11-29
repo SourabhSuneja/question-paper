@@ -1,0 +1,5 @@
+_________ is a piece of ordinary text with special properties of linking to other documents or web pages.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Hypertext","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+___________ are used to view the HTML documents.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Web Browsers","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+_________ tags require a starting and an ending tag.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Container","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The __________ tag is used to create a new line within a block of text.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Line Break","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+_____________ property is used to add a visual decoration to the text.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"text-decoration","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
