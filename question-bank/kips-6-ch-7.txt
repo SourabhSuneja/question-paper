@@ -2,3 +2,7 @@ Python was created by _______________.JSONParams:{"qType":"Fill up","weightage":
 The _______ key is pressed to execute a Python program.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"F5","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 In the interactive mode of Python, the instructions are executed _____________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Line-by-line","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 In Python, ___________ cannot be used as a variable name.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Keywords","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+A variable name consists of letters, digits, and an underscore.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In Python, data types represent the type of data stored in a variable.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In Python, only one type of data can be stored in the memory.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The print() function is used to accept the value of a variable from the user.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
