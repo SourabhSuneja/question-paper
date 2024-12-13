@@ -1,0 +1,4 @@
+Python was created by _______________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Guido van Rossum","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+The _______ key is pressed to execute a Python program.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"F5","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In the interactive mode of Python, the instructions are executed _____________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Line-by-line","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In Python, ___________ cannot be used as a variable name.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Keywords","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
