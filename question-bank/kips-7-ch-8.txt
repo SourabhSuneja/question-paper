@@ -1,0 +1,5 @@
+NLP stands for ____________________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Natural Language Processing","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+NLP is the domain of ________.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"AI","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+______________ is the process of breaking text into small chunks.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Tokenisation","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+_________ is a translator that converts text into natural language.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"NLG","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+_________________ is the first step of NLP tasks.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Sentence Segmentation","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
