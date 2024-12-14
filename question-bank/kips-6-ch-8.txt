@@ -1,0 +1,4 @@
+__________ is the ability of computers to analyse information from our surroundings.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Computer Vision","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+With ____________, you can take a photo and instantly acquire details and information related to it.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Google Lens","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+_____________ are vehicles that operate without a human driver.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Self-driving Cars","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Computer vision is used in ___________ to provide support in space mission.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Robotics","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
