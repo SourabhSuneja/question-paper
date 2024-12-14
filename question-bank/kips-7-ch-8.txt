@@ -3,3 +3,8 @@ NLP is the domain of ________.JSONParams:{"qType":"Fill up","weightage":1,"ansEx
 ______________ is the process of breaking text into small chunks.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Tokenisation","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 _________ is a translator that converts text into natural language.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"NLG","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 _________________ is the first step of NLP tasks.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Sentence Segmentation","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+The Part of Speech tagging involves adding the parts of speech type to each token.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+NLG helps to extract metadata from content.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+Tokenisation is the first step of NLP tasks.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+NLP can be used to analyse the sentiment expressed in text data.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Lemmatisation removes the words having little or no relevance to the meaning of the speech.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
