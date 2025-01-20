@@ -1,0 +1,1 @@
+What is Machine Learning? (Options: Option A} Teaching computers to learn from data Option B} Teaching humans to use machines Option C} Using computers for education Option D} None of these  Correct: Teaching computers to learn from data)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
