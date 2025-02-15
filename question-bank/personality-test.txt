@@ -24,3 +24,8 @@
 क्या आपको कहानियाँ, कविताएँ या किताबें पढ़ना पसंद है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 क्या आपको दूसरों को अपनी बात समझाने में मज़ा आता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 जब आप कुछ नया सीखते हो, तो आपको लिखकर या पढ़कर समझना अच्छा लगता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+क्या आपको गाने सुनना, गुनगुनाना या कोई musical instrument बजाना अच्छा लगता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आप जल्दी से गाने की धुन (tune) पहचान लेते हो? (Options: Option A} बहुत जल्दी Option B} कभी-कभी Option C} शायद ही कभी  Correct: बहुत जल्दी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको सुनकर चीज़े याद करना अच्छा लगता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
