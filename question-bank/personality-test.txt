@@ -29,3 +29,9 @@
 क्या आप जल्दी से गाने की धुन (tune) पहचान लेते हो? (Options: Option A} बहुत जल्दी Option B} कभी-कभी Option C} शायद ही कभी  Correct: बहुत जल्दी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 क्या आपको सुनकर चीज़े याद करना अच्छा लगता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको numbers, puzzles और दिमाग से हल करने वाले games पसंद हैं? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको गणित (Maths) के सवाल हल करने में मज़ा आता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको patterns और logic जल्दी समझ में आ जाते हैं? (Options: Option A} बहुत जल्दी Option B} थोड़ा समय लगता है Option C} देर लगती है  Correct: बहुत जल्दी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
