@@ -47,3 +47,9 @@
 क्या आपको drawing, painting या designing पसंद है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 क्या आप किसी भी चीज़ को imagine/visualise करके समझ सकते हो? (Options: Option A} बहुत जल्दी Option B} थोड़ा समय लगता है Option C} देर लगती है Correct: बहुत जल्दी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आप लोगों के feelings जल्दी समझ लेते हो और उनसे अच्छे से बात कर पाते हो? (Options: Option A} बहुत जल्दी Option B} थोड़ा समय लगता है Option C} देर लगती है Correct: बहुत जल्दी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको दूसरों की मदद करना और उनके साथ मिलकर group में काम करना पसंद है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आप दूसरों की बातें ध्यान से सुनते हो और उनसे जल्दी कनेक्ट कर लेते हो? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
