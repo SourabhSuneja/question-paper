@@ -65,3 +65,5 @@
 क्या आपको जंगल, पहाड़ या समंदर जैसी natural जगहों पर जाना अच्छा लगता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 क्या आपको पेड़-पौधों और जानवरों के बारे में सीखने में मज़ा आता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+आप के according आप की handwriting कैसी है? (Options: Option A} बहुत अच्छी Option B} ठीक है Option C} अच्छी नहीं है Correct: बहुत अच्छी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
