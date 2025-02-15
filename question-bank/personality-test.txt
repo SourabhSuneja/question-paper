@@ -41,3 +41,9 @@
 क्या आपको acting, drama या किसी role-play में मज़ा आता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 क्या आप को अपने हाथ से experiments करके सीखना पसंद है? (जैसे, खिलौने तोड़कर देखना कि कैसे काम करते हैं, साइंस का कोई lab experiment करना) (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आप map, तस्वीरें या shapes देखकर जल्दी समझ जाते हो? (Options: Option A} बहुत जल्दी Option B} थोड़ा समय लगता है Option C} देर लगती है Correct: बहुत जल्दी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको drawing, painting या designing पसंद है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आप किसी भी चीज़ को imagine/visualise करके समझ सकते हो? (Options: Option A} बहुत जल्दी Option B} थोड़ा समय लगता है Option C} देर लगती है Correct: बहुत जल्दी)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
