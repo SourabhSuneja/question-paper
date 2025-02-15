@@ -59,3 +59,9 @@
 क्या आपको अकेले रहना, खुद के बारे में सोचना या अपनी फीलिंग्स लिखना पसंद है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 क्या आप अपनी गलतियों से सीखते हो और खुद को सुधारने की कोशिश करते हो? (Options: Option A} हमेशा Option B} कभी-कभी Option C} बेहद कम Correct: हमेशा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको plants, animals और nature (प्रकृति) से प्यार है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको जंगल, पहाड़ या समंदर जैसी natural जगहों पर जाना अच्छा लगता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+क्या आपको पेड़-पौधों और जानवरों के बारे में सीखने में मज़ा आता है? (Options: Option A} बहुत ज़्यादा Option B} थोड़ा-सा Option C} बिल्कुल नहीं  Correct: बहुत ज़्यादा)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
