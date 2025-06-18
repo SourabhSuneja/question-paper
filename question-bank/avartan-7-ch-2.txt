@@ -9,3 +9,9 @@ The Y-axis is also known as the ___________ axis.JSONParams:{"qType":"Fill up","
 The _________ shows the relationship of proportionate parts to a whole.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Pie chart","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 A ________ chart displays data in the form of rectangular rods.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Bar","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
 The Add Chart Element option is available in the _________ group.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Chart layouts","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+
+A chart is a pictorial representation of data.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+You can change the direction of the gridlines on the chart.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+Legends are linked to the data being displayed in the Graph Plot Area.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The Add Chart Element button is present on the Design tab.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+Consolidation helps in combining the data of multiple worksheets into a single worksheet.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
