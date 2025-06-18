@@ -9,3 +9,9 @@ In Absolute cell referencing, a ________ sign is used before the column letter a
 The ________ function is used to find the highest numeric value in a range.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"MAX","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 In sheet reference, the sheet number along with an ________ mark is followed by the cell address.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Exclamatory (!)","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 The _______ function returns the rounded number to the next lowest integer value.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Round","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+In Excel, you can perform operations, such as addition, subtraction, or multiplication on text value or text strings.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Circular reference is a type of cell reference.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+Joining two or more text values is known as concatenation.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+A function starts with an equal to sign.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+You cannot perform Average function using AutoSum feature.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
