@@ -510,7 +510,7 @@ function DOMHandleMCQ(question, mcqPattern, showAns, shuffleMCQOptions, mediaEmb
         const child = document.createElement('div');
         child.classList.add('option-flex-item');
         // if showAns is true, and this child container holds the correct answer, add class tick-mark-choice; 
-        if(showAns && options[j] === correctAnswer) {
+        if(showAns && decodeHTMLEntities(options[j]) === correctAnswer) {
             child.classList.add('tick-mark-choice'); 
             child.style.position = "relative";
         }
@@ -1276,3 +1276,10 @@ function getAIBtns(element) {
         return div;
 }
 // function ends
+
+// Function to decode HTML entities
+function decodeHTMLEntities(str) {
+  const txt = document.createElement('textarea');
+  txt.innerHTML = str;
+  return txt.value;
+}
