@@ -10,3 +10,6 @@ The ________ attribute of an ordered list is used to decide the start value of t
 ________ property of a table sets the distance between the borders of adjacent cells.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"border-spacing","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 An unordered list is enclosed between the &lt;u&gt; and &lt;/u&gt; tag.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 You cannot define the height and width of the table.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The &lt;ol type="a"&gt; will create an alphabetical ordered list.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+You can add various other elements inside the table elements.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The &lt;li&gt; is used to form a table.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
