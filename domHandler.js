@@ -514,7 +514,7 @@ function DOMHandleMCQ(question, mcqPattern, showAns, shuffleMCQOptions, mediaEmb
             child.classList.add('tick-mark-choice'); 
             child.style.position = "relative";
         }
-        child.textContent = String.fromCharCode(97+j) + ") " + options[j];
+        child.innerHTML = String.fromCharCode(97+j) + ") " + options[j];
         child.style.flexGrow = 1;
         flexContainer.appendChild(child);
     }
