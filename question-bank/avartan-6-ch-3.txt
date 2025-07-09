@@ -8,3 +8,8 @@ The _________ feature allows you to set certain rules to restrict the type of da
 The _______ option arranges and sorts the text value in alphabetical order.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Sort A to Z","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 Click on the ________ button present on the Data tab to remove the filter.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Clear","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
 A ______ appears as a row in a database.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Record","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+Field is a column that contains only one type of data.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The Remove Duplicates button is used to remove any unwanted duplicate value from the range.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+The structure of database is made up of boxes and shapes.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+Field name is a row label in a database.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+The Sort & Filter button is present in the Editing group of the Home tab.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"T","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
