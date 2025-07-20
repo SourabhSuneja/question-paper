@@ -60,7 +60,7 @@
          const baseURL = "https://sourabhsuneja.github.io/question-paper/";
 
          // Files and chapters
-         const files = ["avartan-6-ch-1", "avartan-6-ch-1-between"];
+         const files = ["avartan-6-ch-2", "avartan-6-ch-3"];
         
 
         // Function to get URL parameters
@@ -80,11 +80,11 @@
 
         function generateRandomLink() {
             // Randomize question counts
-            let fillUp = getRandomInt(2, 2);
+            let fillUp = getRandomInt(0, 0);
             let trueFalse = getRandomInt(2, 2);
             let mcq = getRandomInt(3, 4);
             let veryShortAns = 0;
-            let shortAns = getRandomInt(2, 3);
+            let shortAns = getRandomInt(3, 4);
             let longAns = 0;
 
             // Ensure total number of questions is exactly 10
