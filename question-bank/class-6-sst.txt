@@ -1,0 +1,53 @@
+People who study the history of life on Earth through the study of fossils are called (Options: Option A} (a) Archaeologists Option B} (b) Genealogists Option C} (c) Palaeontologists Option D} (d) Geologists Correct: (c) Palaeontologists)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What are Manuscripts?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What does the study of inscriptions called asJSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What do you mean by Numismatic?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is the process of reading and understanding the script used in inscriptions?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What does BC refers to and how it is counted?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What does AD refers to and How does it is counted??JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is Timeline?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Define Millennium.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Define Century.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What are sources? Name few.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who are Epigraphists?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who are Historians?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Name the first  cereals to be grown.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What was one of the greatest achievement?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is Pleistocene Ice Age?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is Ice Age?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Name the animals domesticated in early times?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+When and where Lord Mahavira born?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+When and where Lord Mahavira died?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+When and where Lord Buddha born?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+When and where Lord Buddha died?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Name two sects of Buddhism.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Name two sects of Jainism.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Name the King who was follower of Buddhism.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Name the tree under which  Buddha attained enlightenment?.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who was first Tirthankara?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Name the Buddhist religious text.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Where did Buddhist first and second council held?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What does Tree of wisdom called?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Different between Digambara  and Svetambara.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What does Hinayana and  Mahayana refers to?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What were the four great sights Siddhartha saw?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What we're four Noble Truths?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What are Vedas? Describe the types of Vedas.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In which language did Buddha  and Mahavira taught and Why?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Describe the early life of Buddha.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is Tribe? Describe it characteristics. (Any2)JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is Vedic Society? Explain any two features.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is Right veda and Atharva Veda?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Difference between Geologist and Genealogist.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+How does the study of time line help us?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who was Gautam Buddha? Describe his teaching.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who was Lord Mahavira? Describe his Teachings?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Describe the main features of Tribe?.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What was the reason for spread and decline of Jainism with three points for each?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who was Gautam Buddha? Why did Buddhism did not  succeed and declined?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What was one of the greatest achievement and How does it was used?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Describe the sources of History.JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+How scientific studies have increasingly contributed to our understanding? ExplainJSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+How is time measured in history?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is timeline? How do we measure historical time?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is Upanishad? What are it's teachings?JSONParams:{"qType":"Very Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
