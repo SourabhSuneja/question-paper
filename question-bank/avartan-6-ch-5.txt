@@ -8,3 +8,8 @@ Different shapes are used to make a __________.JSONParams:{"qType":"Fill up","we
 A/an ___________ is a set of instructions written in a simple language to solve a problem.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Algorithm","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 A simple flowchart moves only in the __________ direction.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Vertical","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":75}
 __________ are used to connect different symbols in a flowchart.JSONParams:{"qType":"Fill up","weightage":1,"ansExplanation":"Flow lines","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":100}
+Algorithm for any problem is written in a single statement.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Decision symbols have three exit points.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":50}
+Flowcharts are used to represent only mathematical problems.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":25}
+The Input/Output and Processing symbols are same in a flowchart.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Algorithm must be written in a difficult language.JSONParams:{"qType":"True/False","weightage":1,"ansExplanation":"F","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
