@@ -84,14 +84,14 @@
             let trueFalse = getRandomInt(2, 3);
             let mcq = getRandomInt(2, 3);
             let veryShortAns = 0;
-            let shortAns = getRandomInt(3, 6);
+            let shortAns = getRandomInt(5, 7);
             let longAns = 0;
 
-            // Ensure total number of questions is exactly 10
+            // Ensure total number of questions is exactly 15
             let totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns + longAns;
 
-            if (totalQuestions > 10) {
-                let excess = totalQuestions - 10;
+            if (totalQuestions > 15) {
+                let excess = totalQuestions - 15;
                 shortAns = Math.max(shortAns - excess, 0);
             }
 
@@ -99,7 +99,7 @@
             totalQuestions = fillUp + trueFalse + mcq + veryShortAns + shortAns + longAns;
 
             // Check for shortfall and adjust the "Short Answer Type" in qTypes object to compensate
-            if (totalQuestions < 10) {
+            if (totalQuestions < 15) {
                 let shortfall = 10 - totalQuestions;
                 shortAns += shortfall; 
             }
