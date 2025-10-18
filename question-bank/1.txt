@@ -1,0 +1,1 @@
+Identify the correct form of the verb: She ___ to school every day. (Options: Option A} go Option B} goes Option C} going Option D} gone  Correct: goes.)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"The subject 'she' requires the verb in simple present tense with an -s ending.","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
