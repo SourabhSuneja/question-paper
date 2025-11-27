@@ -4,3 +4,13 @@ All junk, unwanted and suspicious emails are automatically sent in the ________ 
 The Internet initially started in the form of ___________. (Options: Option A} LAN Option B} MASKNET Option C} USNET Option D} ARPANET  Correct: ARPANET)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 The Digital India campaign was launched in the year _________. (Options: Option A} 2012 Option B} 2013 Option C} 2014 Option D} 2015  Correct: 2015)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 1024 GB is equal to _________. (Options: Option A} 1 TB Option B} 1 PB Option C} 1 ZB Option D} 1 MB  Correct: 1 TB)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Define ICT.JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Differentiate between CUI-based and GUI-based operating systems.JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Write any one function of an operating system.JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What are protocols?JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What is a web browser? Give an example.JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What do you understand by booting?JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Write one point of difference between email and postal mail.JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Why is the motherboard an important component of a computer?JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+How is ICT used in real life?JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
