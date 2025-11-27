@@ -14,3 +14,6 @@ What do you understand by booting?JSONParams:{"qType":"Short Answer Type","weigh
 Write one point of difference between email and postal mail.JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 Why is the motherboard an important component of a computer?JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 How is ICT used in real life?JSONParams:{"qType":"Short Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Explain the IPO cycle with an example.JSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Explain the difference between primary and secondary memory with examples.JSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
