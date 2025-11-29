@@ -17,3 +17,7 @@ How is ICT used in real life?JSONParams:{"qType":"Short Answer Type","weightage"
 
 Explain the IPO cycle with an example.JSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 Explain the difference between primary and secondary memory with examples.JSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Why is the motherboard an important component of a computer? Explain.JSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Explain the different types of operating systems.JSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Explain the following terms:<br>a. WWW<br>b. ISP<br>c. URL<br>d. Web BrowserJSONParams:{"qType":"Long Answer Type","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
