@@ -2,9 +2,9 @@ In which year did Soviet union launch Sputnik, the first artificial satellite in
 
 Which was the first supersonic jet liner used by an airline? (Options: Option A} Boeing Option B} Aero flot Option C} KLM Option D} Concorde  Correct: Concorde)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
-In 1990, where did John alcock and Arthur Brown make the first non stop flight across? (Options: Option A} Atlantic Ocean Option B} Arctic Ocean Option C} Antarctic Ocean Option D} Indian Ocean  Correct: Atlantic Ocean)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+In 1990, where did John alcock and Arthur Brown make the first non-stop flight across? (Options: Option A} Atlantic Ocean Option B} Arctic Ocean Option C} Antarctic Ocean Option D} Indian Ocean  Correct: Atlantic Ocean)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
-'Riots are the voices of the unheard'. Whose famous quotes are these? (Options: Option A} Nelson Mandela Option B} Norman Borlaug Option C} Nelson Mandela Option D} Simon Boliver  Correct: Nelson Mandela)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+'Riots are the voices of the unheard'. Whose famous quotes are these? (Options: Option A} Nelson Mandela Option B} Norman Borlaug Option C} Mahatma Gandhi Option D} Simon Boliver  Correct: Nelson Mandela)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 In which year did the Russian Revolution pave the way for the formation of the Soviet Union? (Options: Option A} 1938 Option B} 1922 Option C} 1929 Option D} 1919  Correct: 1922)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
@@ -14,9 +14,9 @@ The Spanish Civil War led to the rise of which leader? (Options: Option A} Gener
 
 Identify this famous revolutionary figure. (Options: Option A} Che Guevara Option B} Vladimir Lenin Option C} Varghese Kurian Option D} Emilio Aguinaldo  Correct: Varghese Kurian)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"image","mediaLink":"https://upload.wikimedia.org/wikipedia/commons/f/ff/Verghese_Kurien_in_2009_%28cropped%29.jpg","startTime":0,"endTime":0,"card":10}
 
-Which movement was started by Medha Patkar? (Options: Option A} Anti corruption movement Option B} Solar grandmother's movement Option C} Stop Acid Attacks Option D} Narmada Bachao Aandolan  Correct: Narmada Bachao Aandolan)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Which movement was started by Medha Patkar? (Options: Option A} Anti-corruption movement Option B} Solar grandmother's movement Option C} Stop Acid Attacks Option D} Narmada Bachao Aandolan  Correct: Narmada Bachao Aandolan)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
-Who is known as 'Father of Indian Aviation'? (Options: Option A} JRD Tata Option B} Jamsed ji Tata Option C} Ratan Tata Option D} Noel Tata  Correct: JRD Tata)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who is known as the 'Father of Indian Aviation'? (Options: Option A} JRD Tata Option B} Jamsed ji Tata Option C} Ratan Tata Option D} Noel Tata  Correct: JRD Tata)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 What is the tagline of Air India Express? (Options: Option A} Simplifly Option B} Simply Priceless Option C} Truly Indian Option D} The Joy of Flying  Correct: Simply Priceless)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
@@ -24,13 +24,13 @@ What is the fear of falling called? (Options: Option A} Basi phobia Option B} Hy
 
 In which Indian city the famous Biju Patnaik International Airport is located? (Options: Option A} Guwahati Option B} Aizawl Option C} Patna Option D} Bhubaneswar  Correct: Bhubaneswar)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
-What does the following idiom means:'Fly of the handle '. (Options: Option A} Seems the time is passing very quickly Option B} To get angry very quickly Option C} It will not succeed Option D} It will be in your hand  Correct: To get angry very quickly)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+What does the idiom 'Fly of the handle' mean? (Options: Option A} Seems the time is passing very quickly Option B} To get angry very quickly Option C} It will not succeed Option D} It will be in your hand  Correct: To get angry very quickly)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 Identify this fantasy Film from the picture given: (Options: Option A} Arrival Option B} Enthiran Option C} Avatar Option D} Pan's Labyrinth  Correct: Avatar)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"image","mediaLink":"https://images.wallpapersden.com/image/download/original-avatar-movie-poster_bGdoaWaUmZqaraWkpJRnZWltrWZqamg.jpg","startTime":0,"endTime":0,"card":10}
 
-How many books are there in 'The Chronicles of Narnia ' series? (Options: Option A} 6 Option B} 7 Option C} 5 Option D} 8  Correct: 7)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+How many books are there in 'The Chronicles of Narnia' series? (Options: Option A} 6 Option B} 7 Option C} 5 Option D} 8  Correct: 7)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 Who is the author of Tamil fantasy book 'Ponniyin Selvan'? (Options: Option A} Sonja Chandrachud Option B} Arulmozhi Varman Option C} Akhilan Vinod Option D} Kalki Krishnamurthy  Correct: Kalki Krishnamurthy)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
-According to the Guinness Book of World records,which film hold the record for showing the maximum number of artificial feet used in a single film? (Options: Option A} Iru Mugan Option B} The War of Worlds Option C} Lord of the Rings Option D} The Potion of Eternity  Correct: Lord of the Rings)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+According to the Guinness Book of World records, which film hold the record for showing the maximum number of artificial feet used in a single film? (Options: Option A} Iru Mugan Option B} The War of Worlds Option C} Lord of the Rings Option D} The Potion of Eternity  Correct: Lord of the Rings)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
