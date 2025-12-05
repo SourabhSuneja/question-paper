@@ -30,7 +30,7 @@ Identify this fantasy Film from the picture given: (Options: Option A} Arrival O
 
 How many books are there in 'The Chronicles of Narnia' series? (Options: Option A} 6 Option B} 7 Option C} 5 Option D} 8  Correct: 7)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
-Who is the author of Tamil fantasy book 'Ponniyin Selvan'? (Options: Option A} Sonja Chandrachud Option B} Arulmozhi Varman Option C} Akhilan Vinod Option D} Kalki Krishnamurthy  Correct: Kalki Krishnamurthy)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+Who is the author of the famous Tamil fantasy book 'Ponniyin Selvan'? (Options: Option A} Sonja Chandrachud Option B} Arulmozhi Varman Option C} Akhilan Vinod Option D} Kalki Krishnamurthy  Correct: Kalki Krishnamurthy)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 According to the Guinness Book of World records, which film hold the record for showing the maximum number of artificial feet used in a single film? (Options: Option A} Iru Mugan Option B} The War of Worlds Option C} Lord of the Rings Option D} The Potion of Eternity  Correct: Lord of the Rings)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
