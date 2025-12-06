@@ -34,3 +34,7 @@ Who is the author of the famous Tamil fantasy book 'Ponniyin Selvan'? (Options: 
 
 According to the Guinness Book of World records, which film hold the record for showing the maximum number of artificial feet used in a single film? (Options: Option A} Iru Mugan Option B} The War of Worlds Option C} Lord of the Rings Option D} The Potion of Eternity  Correct: Lord of the Rings)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
+Who played the character of Louise Banks in the film Arrival? (Options: Option A} Amy Adams Option B} Rajinikanth Option C} Vinod Option D} Roald Dahl  Correct: Amy Adams)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
+Which novel is Vande Mataram a part of? (Options: Option A} Karmbhumi Option B} Kamayani Option C} Anandmath Option D} Dhruswamini  Correct: Anandmath)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+
