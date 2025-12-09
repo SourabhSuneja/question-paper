@@ -4,7 +4,7 @@ Which was the first supersonic jet liner used by an airline? (Options: Option A}
 
 In 1990, where did John alcock and Arthur Brown make the first non-stop flight across? (Options: Option A} Atlantic Ocean Option B} Arctic Ocean Option C} Antarctic Ocean Option D} Indian Ocean  Correct: Atlantic Ocean)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
-'Riots are the voices of the unheard'. Whose famous quotes are these? (Options: Option A} Nelson Mandela Option B} Norman Borlaug Option C} Mahatma Gandhi Option D} Simon Boliver  Correct: Nelson Mandela)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
+'Riots are the voices of the unheard'. Whose famous quotes are these? (Options: Option A} Martin Luther King Jr. Option B} Norman Borlaug Option C} Mahatma Gandhi Option D} Simon Boliver  Correct: Martin Luther King Jr.)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
 In which year did the Russian Revolution pave the way for the formation of the Soviet Union? (Options: Option A} 1938 Option B} 1922 Option C} 1929 Option D} 1919  Correct: 1922)JSONParams:{"qType":"MCQ","weightage":1,"ansExplanation":"","mediaEmbedded":"none","mediaLink":"","startTime":0,"endTime":0,"card":10}
 
